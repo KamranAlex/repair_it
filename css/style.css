@@ -896,7 +896,7 @@ section {
 .site-header__home-one .header-navigation .logo-box::before {
   top: 0;
   right: 0;
-  height: calc(85% + 5px);
+  height: calc(100% + 5px);
   width: 100000px;
   left: auto;
   -webkit-transform: skewX(-10deg);
@@ -918,7 +918,7 @@ section {
   z-index: 10;
   top: 0;
   right: -10px;
-  height: calc(85% + 15px);
+  height: calc(100% + 15px);
   width: 100000px;
   opacity: 0.2;
   -webkit-transform: skewX(-10deg);
@@ -938,11 +938,11 @@ section {
   padding-bottom: 5px;
 }
 .site-header__home-one .stricked-menu .logo-box::before {
-  height: calc(85% + 5px);
+  height: calc(100% + 10px);
 }
 .site-header__home-one .stricked-menu .logo-box:after {
   content: '';
-  height: calc(85% + 15px);
+  height: calc(100% + 20px);
 }
 /** Quote Part **/
 .quote-part {
@@ -2165,7 +2165,7 @@ a.video-play-icon-without-bip:hover {
 .testimonial-section {
   position: relative;
   padding: 40px 0px 56px;
-  background-color: #000000;
+  background-color: #004b57;
 }
 .testimonial-section .section-title h2 {
   color: #fff;
@@ -3298,13 +3298,14 @@ a.video-play-icon-without-bip:hover {
 }
 .main-footer .widgets-section {
   position: relative;
-  padding: 60px 0px;
+  padding: 32px 0px;
 }
 .main-footer .footer-title {
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   margin-top: 25px;
 }
+
 .main-footer .footer-widget h4 {
   position: relative;
   font-weight: 700;
@@ -3351,7 +3352,8 @@ a.video-play-icon-without-bip:hover {
   color: #ffffff;
   font-weight: 700;
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 25px;
+  margin-top: 16px;
 }
 .social-icon-one li {
   position: relative;
@@ -3438,7 +3440,7 @@ a.video-play-icon-without-bip:hover {
   line-height: 30px;
   color: #888888;
 }
-.main-footer .newsletter-widget .text {
+.main-footer .findUs-widget .text {
   position: relative;
   color: #bbbbbb;
   top: -10px;
@@ -3446,6 +3448,11 @@ a.video-play-icon-without-bip:hover {
   font-weight: 400;
   line-height: 1.8em;
   margin-bottom: 10px;
+}
+
+.main-footer .footer-widget .pay-opt img {
+  height: 200px;
+  width: 200px;
 }
 /* Newslettter Form */
 
@@ -3574,7 +3581,7 @@ a.video-play-icon-without-bip:hover {
 }
 .main-footer.style-two .contact-link li span,
 .main-footer.style-two .contact-link li,
-.main-footer.style-two .newsletter-widget .text,
+.main-footer.style-two .findUs-widget .text,
 .main-footer.style-two .logo-widget .text,
 .main-footer.style-two .footer-bottom .footer-nav li a {
   color: #ffffff;
