@@ -167,7 +167,7 @@ section {
   font-size: 16px;
   color: #ffffff;
   background-color: #21bcd8;
-  padding: 16px 35px 18px;
+  padding: 12px 35px 16px;
   line-height: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1463,9 +1463,8 @@ a.video-play-icon-without-bip:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.single-service .service-content-wrap .icon {
-  font-size: 50px;
-  line-height: 1;
+.single-service .service-content-wrap img {
+  height: 60px;
   display: inline-block;
   margin-bottom: 20px;
   color: #fe696b;
@@ -2079,11 +2078,19 @@ a.video-play-icon-without-bip:hover {
   margin-bottom: 0;
   position: relative;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 24px;
+}
+.pricing-table .pricing-table-icon {
+  margin-bottom: 12px;
+  position: relative;
+  text-align: center;
+}
+.pricing-table .pricing-table-icon img {
+  height: 46px;
 }
 .pricing-table-agency {
-  padding-top: 3.5rem;
-  padding-bottom: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
   background-color: #fff;
   box-shadow: 0 40px 125px rgba(0, 0, 0, 0.07);
 }
@@ -2137,21 +2144,25 @@ a.video-play-icon-without-bip:hover {
 .pricing-table-agency .pricing small {
   opacity: 0.6;
 }
-.pricing-table-agency .pricing small:before {
+/* .pricing-table-agency .pricing small:before {
   content: '/';
-}
+} */
 .pricing-table-agency .pricing-table-body {
-  padding: 0 5rem;
-  margin-bottom: 1.5rem;
+  padding: 0 4rem;
+  margin-bottom: 2rem;
 }
 .pricing-table-agency .pricing-table-body li {
-  padding: 1.5em 1em;
+  text-align: left;
+  padding: 0.5em 0.25em;
   border-top: 1px solid #ebeff1;
   font-size: 14px;
   line-height: 1.5em;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #666;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+.pricing-table-agency .pricing-table-body li span {
+  color: #fe696b;
 }
 .pricing-table.featured .default-btn {
   background-color: #fe696b;
