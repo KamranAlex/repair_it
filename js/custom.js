@@ -45,7 +45,7 @@ $(function () {
       margin: 0,
       dots: true,
       nav: false,
-      animateOut: '.slideOutDown',
+      animateOut: 'slideOutDown',
       animateIn: 'fadeIn',
       active: true,
       smartSpeed: 1000,

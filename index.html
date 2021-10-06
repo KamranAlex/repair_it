@@ -17,125 +17,164 @@
 <body>
   <!-- Pre Loader -->
   <div id="dvLoading"></div>
-
-  <!-- Site Header Menu -->
-  <header class="site-header site-header__header-one site-header__home-one">
-    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
-      <div class="container clearfix">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="logo-box">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo-custom.png" width="200px" class="main-logo" alt="Awesome Image" />
-          </a>
-          <button class="menu-toggler" data-target=".main-navigation">
-            <span class="fa fa-bars"></span>
-          </button>
-        </div>
-        <!-- /.logo-box -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="main-navigation">
-          <ul class="navigation-box @@extra_class">
-            <li class="current"><a href="index.html">Home</a></li>
-            <li>
-              <a href="services.html">Buy Warranty</a>
-            </li>
-
-            <li>
-              <a href="services.html">Fix a Device</a>
-            </li>
-            <li>
-              <a href="about-us.html">About</a>
-            </li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-            <li>
-              <a href="blog.html">Sign In</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-
-        <!-- /.right-side-box -->
+<!-- Top Bar -->
+<div class="search-popup">
+  <div class="search-popup__overlay custom-cursor__overlay">
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+  </div>
+  <!-- /.search-popup__overlay -->
+  <div class="search-popup__inner">
+    <form action="#" class="search-popup__form">
+      <input type="text" name="search" placeholder="Type here to Search....">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+  <!-- /.search-popup__inner --> 
+</div>
+<div class="topbar-one">
+  <div class="container">
+    <div class="topbar-one__left">
+      <div class="topbar-one__social"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-rss"></i></a> <a href="#"><i class="fab fa-google-plus-g"></i></a> <a href="#"><i class="fab fa-vimeo-v"></i></a> </div>
+    </div>
+    <div class="topbar-one__right">
+      <div class="topbar-one__links"> <a href="#" class="topbar-one__search search-popup__toggler"><i class="fas fa-search"></i> </a><a href="#" class="topbar-one__link"><i class="far fa-clock"></i>Mon - Fri: 9.30 - 18.30</a><a href="#" class="topbar-one__link"><i class="far fa-envelope"></i>info@test.com </a> </div>
+    </div>
+  </div>
+</div>
+<!-- Site Header Menu -->
+<header class="site-header site-header__header-one site-header__home-one ">
+  <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+    <div class="container clearfix"> 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="logo-box"> <a class="navbar-brand" href="index.html"> <img src="images/logo.png" width="185" class="main-logo" alt="Awesome Image" /> </a>
+        <button class="menu-toggler" data-target=".main-navigation"> <span class="fa fa-bars"></span> </button>
       </div>
-      <!-- /.container -->
-    </nav>
-  </header>
-  <div class="quote-part mfp-hide" id="quote-popup">
-    <div class="container">
-      <div class="section-title">
-        <span class="section-span">Get A Quote</span>
-        <h2 class="text-center head-two">
-          Lets create something awesome together!
-        </h2>
+      <!-- /.logo-box --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="main-navigation">
+        <ul class="navigation-box @@extra_class">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="#">Pages</a>
+            <ul class="submenu">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="our-team.html">Our Team</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="error.html">Error Page</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Services</a>
+            <ul class="submenu">
+              <li><a href="services.html">Services</a></li>
+              <li><a href="service-details.html">Service Details</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blog</a>
+            <ul class="submenu">
+              <li><a href="blog.html">Blog Classic</a></li>
+              <li><a href="blog-details.html">Blog Details</a></li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
       </div>
-      <div class="row">
-        <div class="col-lg-7">
-          <form class="quote-form">
-            <div class="row">
-              <div class="col-md">
-                <input type="text" class="form-control" placeholder="Name" required />
-              </div>
-              <div class="col-md">
-                <input type="text" class="form-control" placeholder="Email" required />
-              </div>
+      <!-- /.navbar-collapse -->
+      <div class="right-side-box"> <a href="#quote-popup" class="default-btn open-popup-link" data-effect="mfp-move-horizontal">Get A Quote <i class="fas fa-long-arrow-alt-right"></i> </a><!-- /.thm-btn --> 
+      </div>
+      <!-- /.right-side-box --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
+</header>
+<div class="quote-part mfp-hide" id="quote-popup">
+  <div class="container">
+    <div class="section-title"> <span class="section-span">Get A Quote</span>
+      <h2 class="text-center head-two">Lets create something awesome together!</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-7">
+        <form class="quote-form">
+          <div class="row">
+            <div class="col-md">
+              <input type="text" class="form-control" placeholder="Name" required>
             </div>
-            <div class="row">
-              <div class="col-md">
-                <input type="text" class="form-control" placeholder="Subject" required />
-              </div>
+            <div class="col-md">
+              <input type="text" class="form-control" placeholder="Email" required>
             </div>
-            <div class="form-group">
-              <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+          </div>
+          <div class="row">
+            <div class="col-md">
+              <input type="text" class="form-control" placeholder="Subject" required>
             </div>
-            <button type="submit" class="quote-contact-btn">SEND</button>
-          </form>
-        </div>
-        <div class="col-lg-5">
-          <div class="contact-detail-grp position-r">
-            <div class="contact-middle">
-              <div class="contact-detail">
-                <h3 class="head-three">Give us a call</h3>
-                <a href="fas fa-long-arrow-alt-right">+01 123 456 789</a>
-              </div>
-              <div class="contact-detail">
-                <h3 class="head-three">Send us an email</h3>
-                <a href="#" data-popupalt-original-title="null" title="null">info@test.com</a>
-              </div>
-              <div class="contact-detail social-ac">
-                <h3 class="head-three">Follow us on</h3>
-                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
-                <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
-              </div>
-            </div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="quote-contact-btn">SEND</button>
+        </form>
+      </div>
+      <div class="col-lg-5">
+        <div class="contact-detail-grp position-r">
+          <div class="contact-middle">
+            <div class="contact-detail">
+              <h3 class="head-three">Give us a call</h3>
+              <a href="fas fa-long-arrow-alt-right">+01 123 456 789</a> </div>
+            <div class="contact-detail">
+              <h3 class="head-three">Send us an email</h3>
+              <a href="#" data-popupalt-original-title="null" title="null">info@test.com</a> </div>
+            <div class="contact-detail social-ac">
+              <h3 class="head-three">Follow us on</h3>
+              <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a> <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- ttm-stickable-header-w end-->
-  <!-- Site Slider Start -->
-  <section class="main-banner">
-    <div class="item main-banner__slider-1" style="
-          background-image: url(https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
-        ">
+</div>
+<!-- ttm-stickable-header-w end--> 
+<!-- Site Slider Start -->
+<section class="slider-one">
+  <div class="slider-one__carousel owl-carousel owl-theme">
+    <div class="item slider-one__slider-1" style="background-image: url(http://via.placeholder.com/1920x670/000/fff);">
       <div class="container">
-        <h2 class="main-banner__title">
-          Repair your Device <br />
-          & Buy Warranty.
-        </h2>
-        <!-- /.main-banner__title -->
-        <p class="main-banner__text">
-          Feel free to discuss your issues with us.
-        </p>
-        <a href="contact-us.html" class="default-btn main-banner__text">Contact Us <i
-            class="fas fa-long-arrow-alt-right"></i>
-        </a>
-        <!-- /.main-banner__text -->
+        <h2 class="slider-one__title">Repair your Computer <br>
+          laptop & iphone. </h2>
+        <!-- /.slider-one__title -->
+        <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
+        <a href="contact-us.html" class="default-btn slider-one__text">Contact Us <i class="fas fa-long-arrow-alt-right"></i> </a> 
+        <!-- /.slider-one__text --> 
       </div>
-      <!-- /.container -->
+      <!-- /.container --> 
     </div>
-  </section>
+    <!-- /.item -->
+    <div class="item slider-one__slider-2" style="background-image: url(http://via.placeholder.com/1920x670/000/fff);">
+      <div class="container">
+        <h2 class="slider-one__title">Repair your Computer <br>
+          laptop & iphone. </h2>
+        <!-- /.slider-one__title -->
+        <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
+        <a href="contact-us.html" class="default-btn slider-one__text">Contact Us <i class="fas fa-long-arrow-alt-right"></i> </a> 
+        <!-- /.slider-one__text --> 
+      </div>
+      <!-- /.container --> 
+    </div>
+    <!-- /.item -->
+    <div class="item slider-one__slider-3" style="background-image: url(http://via.placeholder.com/1920x670/000/fff);">
+      <div class="container">
+        <h2 class="slider-one__title">Repair your Computer <br>
+          laptop & iphone. </h2>
+        <!-- /.slider-one__title -->
+        <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
+        <a href="contact-us.html" class="default-btn slider-one__text">Contact Us <i class="fas fa-long-arrow-alt-right"></i> </a> 
+        <!-- /.slider-one__text --> 
+      </div>
+      <!-- /.container --> 
+    </div>
+    <!-- /.item --> 
+  </div>
+  <!-- /.slider-one__carousel --> 
+</section>
 
 
   <!-- Process Sec Start -->
