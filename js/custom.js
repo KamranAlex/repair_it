@@ -50,6 +50,7 @@ $(function () {
       active: true,
       smartSpeed: 1000,
       autoplay: 7000
+      // autoplay: false
     });
     slideOneWrap.find('.slide-one__left-btn').on('click', function (e) {
       slideOneCarousel.trigger('next.owl.carousel');
