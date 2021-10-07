@@ -17,138 +17,153 @@
 <body>
   <!-- Pre Loader -->
   <div id="dvLoading"></div>
-<!-- Top Bar -->
-<div class="search-popup">
-  <div class="search-popup__overlay custom-cursor__overlay">
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
+  <!-- Top Bar -->
+  <div class="search-popup">
+    <div class="search-popup__overlay custom-cursor__overlay">
+      <div class="cursor"></div>
+      <div class="cursor-follower"></div>
+    </div>
+    <!-- /.search-popup__overlay -->
+    <div class="search-popup__inner">
+      <form action="#" class="search-popup__form">
+        <input type="text" name="search" placeholder="Type here to Search....">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    <!-- /.search-popup__inner -->
   </div>
-  <!-- /.search-popup__overlay -->
-  <div class="search-popup__inner">
-    <form action="#" class="search-popup__form">
-      <input type="text" name="search" placeholder="Type here to Search....">
-      <button type="submit"><i class="fas fa-search"></i></button>
-    </form>
-  </div>
-  <!-- /.search-popup__inner --> 
-</div>
-<div class="topbar-one">
-  <div class="container">
-    <div class="topbar-one__left">
-      <div class="topbar-one__social"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-rss"></i></a> <a href="#"><i class="fab fa-google-plus-g"></i></a> <a href="#"><i class="fab fa-vimeo-v"></i></a> </div>
-    </div>
-    <div class="topbar-one__right">
-      <div class="topbar-one__links"> <a href="#" class="topbar-one__search search-popup__toggler"><i class="fas fa-search"></i> </a><a href="#" class="topbar-one__link"><i class="far fa-clock"></i>Mon - Fri: 9.30 - 18.30</a><a href="#" class="topbar-one__link"><i class="far fa-envelope"></i>info@test.com </a> </div>
+  <div class="topbar-one">
+    <div class="container">
+      <div class="topbar-one__left">
+        <div class="topbar-one__social"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i
+              class="fab fa-twitter"></i></a> <a href="#"><i class="fas fa-rss"></i></a> <a href="#"><i
+              class="fab fa-google-plus-g"></i></a> <a href="#"><i class="fab fa-vimeo-v"></i></a> </div>
+      </div>
+      <div class="topbar-one__right">
+        <div class="topbar-one__links"> <a href="#" class="topbar-one__search search-popup__toggler"><i
+              class="fas fa-search"></i> </a><a href="#" class="topbar-one__link"><i class="far fa-clock"></i>Mon - Fri:
+            9.30 - 18.30</a><a href="#" class="topbar-one__link"><i class="far fa-envelope"></i>info@test.com </a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<!-- Site Header Menu -->
-<header class="site-header site-header__header-one site-header__home-one ">
-  <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
-    <div class="container clearfix"> 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="logo-box"> <a class="navbar-brand" href="index.html"> <img src="images/logo-ai.png" width="185" class="main-logo" alt="Awesome Image" /> </a>
-        <button class="menu-toggler" data-target=".main-navigation"> <span class="fa fa-bars"></span> </button>
+  <!-- Site Header Menu -->
+  <header class="site-header site-header__header-one site-header__home-one ">
+    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+      <div class="container clearfix">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="logo-box"> <a class="navbar-brand" href="index.html"> <img src="images/logo-main.png" width="185"
+              class="main-logo" alt="Awesome Image" /> </a>
+          <button class="menu-toggler" data-target=".main-navigation"> <span class="fa fa-bars"></span> </button>
+        </div>
+        <!-- /.logo-box -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="main-navigation">
+          <ul class="navigation-box @@extra_class">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#">Buy Warranty</a></li>
+            <li><a href="#">Fix a Device</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="right-side-box"> <a href="#quote-popup" class="default-btn open-popup-link"
+            data-effect="mfp-move-horizontal">Get A Quote <i class="fas fa-long-arrow-alt-right"></i> </a>
+          <!-- /.thm-btn -->
+        </div>
+        <!-- /.right-side-box -->
       </div>
-      <!-- /.logo-box --> 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="main-navigation">
-        <ul class="navigation-box @@extra_class">
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="#">Buy Warranty</a></li>
-          <li><a href="#">Fix a Device</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
+      <!-- /.container -->
+    </nav>
+  </header>
+  <div class="quote-part mfp-hide" id="quote-popup">
+    <div class="container">
+      <div class="section-title"> <span class="section-span">Get A Quote</span>
+        <h2 class="text-center head-two">Lets create something awesome together!</h2>
       </div>
-      <!-- /.navbar-collapse -->
-      <div class="right-side-box"> <a href="#quote-popup" class="default-btn open-popup-link" data-effect="mfp-move-horizontal">Get A Quote <i class="fas fa-long-arrow-alt-right"></i> </a><!-- /.thm-btn --> 
-      </div>
-      <!-- /.right-side-box --> 
-    </div>
-    <!-- /.container --> 
-  </nav>
-</header>
-<div class="quote-part mfp-hide" id="quote-popup">
-  <div class="container">
-    <div class="section-title"> <span class="section-span">Get A Quote</span>
-      <h2 class="text-center head-two">Lets create something awesome together!</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg-7">
-        <form class="quote-form">
-          <div class="row">
-            <div class="col-md">
-              <input type="text" class="form-control" placeholder="Name" required>
+      <div class="row">
+        <div class="col-lg-7">
+          <form class="quote-form">
+            <div class="row">
+              <div class="col-md">
+                <input type="text" class="form-control" placeholder="Name" required>
+              </div>
+              <div class="col-md">
+                <input type="text" class="form-control" placeholder="Email" required>
+              </div>
             </div>
-            <div class="col-md">
-              <input type="text" class="form-control" placeholder="Email" required>
+            <div class="row">
+              <div class="col-md">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md">
-              <input type="text" class="form-control" placeholder="Subject" required>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
             </div>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
-          </div>
-          <button type="submit" class="quote-contact-btn">SEND</button>
-        </form>
-      </div>
-      <div class="col-lg-5">
-        <div class="contact-detail-grp position-r">
-          <div class="contact-middle">
-            <div class="contact-detail">
-              <h3 class="head-three">Give us a call</h3>
-              <a href="fas fa-long-arrow-alt-right">+01 123 456 789</a> </div>
-            <div class="contact-detail">
-              <h3 class="head-three">Send us an email</h3>
-              <a href="#" data-popupalt-original-title="null" title="null">info@test.com</a> </div>
-            <div class="contact-detail social-ac">
-              <h3 class="head-three">Follow us on</h3>
-              <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a> <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> </div>
+            <button type="submit" class="quote-contact-btn">SEND</button>
+          </form>
+        </div>
+        <div class="col-lg-5">
+          <div class="contact-detail-grp position-r">
+            <div class="contact-middle">
+              <div class="contact-detail">
+                <h3 class="head-three">Give us a call</h3>
+                <a href="fas fa-long-arrow-alt-right">+01 123 456 789</a>
+              </div>
+              <div class="contact-detail">
+                <h3 class="head-three">Send us an email</h3>
+                <a href="#" data-popupalt-original-title="null" title="null">info@test.com</a>
+              </div>
+              <div class="contact-detail social-ac">
+                <h3 class="head-three">Follow us on</h3>
+                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a> <a href="javascript:void(0)"><i
+                    class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a
+                  href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- ttm-stickable-header-w end--> 
+  <!-- ttm-stickable-header-w end-->
 
-<!-- Site Slider Start -->
-<section class="slider-one">
-  <div class="slider-one__carousel owl-carousel owl-theme">
-    <div class="item slider-one__slider-1" style="background-image: url(images/secure-device.jpg); max-height: 600px;">
-      <div class="container text-left">
-        <h2 class="slider-one__title"> Get Extended Warranty</h2>
-        <!-- /.slider-one__title -->
-        <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
-        <a href="contact-us.html" class="default-btn slider-one__text">Order Now <i class="fas fa-long-arrow-alt-right"></i> </a> 
-        <!-- /.slider-one__text --> 
+  <!-- Site Slider Start -->
+  <section class="slider-one">
+    <div class="slider-one__carousel owl-carousel owl-theme">
+      <div class="item slider-one__slider-1" style="background-image: url(images/happy.jpg); max-height: 600px;">
+        <div class="container text-left">
+          <h2 class="slider-one__title"> Get Extended Warranty</h2>
+          <!-- /.slider-one__title -->
+          <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
+          <a href="contact-us.html" class="default-btn slider-one__text">Order Now <i
+              class="fas fa-long-arrow-alt-right"></i> </a>
+          <!-- /.slider-one__text -->
+        </div>
+        <!-- /.container -->
       </div>
-      <!-- /.container --> 
-    </div>
-    <!-- /.item -->
-    <div class="item slider-one__slider-2" style="background-image: url(images/fix-device.jpg);max-height: 600px;">
-      <div class="container text-left">
-        <h2 class="slider-one__title">Fix Your Device </h2>
-        <!-- /.slider-one__title -->
-        <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
-        <a href="contact-us.html" class="default-btn slider-one__text">Book Now <i class="fas fa-long-arrow-alt-right"></i> </a> 
-        <!-- /.slider-one__text --> 
+      <!-- /.item -->
+      <div class="item slider-one__slider-2" style="background-image: url(images/fix-device.jpg);max-height: 600px;">
+        <div class="container text-left">
+          <h2 class="slider-one__title">Fix Your Device </h2>
+          <!-- /.slider-one__title -->
+          <p class="slider-one__text">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</p>
+          <a href="contact-us.html" class="default-btn slider-one__text">Book Now <i
+              class="fas fa-long-arrow-alt-right"></i> </a>
+          <!-- /.slider-one__text -->
+        </div>
+        <!-- /.container -->
       </div>
-      <!-- /.container --> 
+      <!-- /.item -->
     </div>
-    <!-- /.item -->
-  </div>
-  <!-- /.slider-one__carousel --> 
-</section>
+    <!-- /.slider-one__carousel -->
+  </section>
 
 
   <!-- Process Sec Start -->
-  <section class="process-sec mt-minus-70 pt-0 pb-70">
+  <section class="process-sec mt-minus-70 pt-0 pb-0">
     <div class="container process-container">
       <div class="process-carousel owl-carousel owl-theme">
         <!--Process Block -->
@@ -195,37 +210,227 @@
      ==========================
      ==========================-->
 
-  <!-- About Sec Start -->
-  <section class="about-sec">
+  <!-- How we Do Section -->
+  <section class="steps-sec mt-5">
     <div class="container">
+      <!-- Sec Title -->
       <div class="section-title">
-        <span>What We Do </span>
-        <h2>About Us</h2>
+        <span>How it works</span>
+        <h2>Get started with 3 easy steps</h2>
       </div>
-      <div class="row justify-content-between align-items-center">
-        <div class="col-md-12 col-lg-5 mb-4">
-          <div class="video-promo-content mb-md-4 mb-lg-0">
-            <h2>Let the device be taken care by the Professionals</h2>
-            <p class="pb-4">
-              Interactively develop timely niche markets before extensive
-              imperatives. Professionally repurpose interoperable growth
-              strategies before effective core competencies.
-            </p>
+      <div class="row mb-3">
+        <!-- Step Card Start -->
+        <div class="col-lg-4 col-md-6">
+          <div class="steps-card steps-card-agency">
 
-            <a href="contact-us.html" class="default-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i>
-            </a>
+            <div class="steps-card-icon d-flex">
+              <p class="steps-index mr-3">1</p>
+              <img src="images/steps-icon/cargo-box.png" alt="">
+            </div>
+            <div class="steps-card-header">
+              <p class="steps-title my-0">You Ship It</p>
+              <hr class="steps-title-separator">
+            </div>
+            <div class="steps-card-body">
+              <p class="steps-card-text my-0">
+                Mail us your computer along with contact information, return mailing address and a description of the
+                problems you are experiencing. If you don’t have your original computer box, don’t panic. Use a plain
+                cardboard box with bubble wrap or peanuts as padding.
+              </p>
+            </div>
           </div>
-
         </div>
-        <div class="col-md-12 col-lg-6 my-3 mt-lg-0">
-          <div class="card border-0 shadow-sm text-white">
-            <img src="images/repairMan.jpg" alt="video" class="img-fluid rounded shadow-sm" />
 
+        <!-- Step Card Start -->
+        <div class="col-lg-4 col-md-6">
+          <div class="steps-card steps-card-agency">
+
+            <div class="steps-card-icon d-flex">
+              <p class="steps-index mr-3">2</p>
+              <img src="images/steps-icon/processing.png" alt="">
+            </div>
+            <div class="steps-card-header">
+              <p class="steps-title my-0">We Diagnose</p>
+              <hr class="steps-title-separator">
+            </div>
+            <div class="steps-card-body">
+              <p class="steps-card-text my-0">
+                We will run a full battery of diagnostics that match your indicated problems and you will typically receive the computer repair diagnosis and a complete written repair estimate via email within 24 hours.
+              </p>
+            </div>
           </div>
         </div>
+
+        <!-- Step Card Start -->
+        <div class="col-lg-4 col-md-6">
+          <div class="steps-card steps-card-agency">
+
+            <div class="steps-card-icon d-flex">
+              <p class="steps-index mr-3">3</p>
+              <img src="images/steps-icon/repair.png" alt="">
+            </div>
+            <div class="steps-card-header">
+              <p class="steps-title my-0">We Repair & Return</p>
+              <hr class="steps-title-separator">
+            </div>
+            <div class="steps-card-body">
+              <p class="steps-card-text my-0">
+               Approved repairs are typically completed within 3 to 5 working days and your “good-as-new” computer is promptly shipped back to you. You enjoy an updated and fully functioning repaired computer for less than the price of a new computer.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="steps-sec-footer text-center pt-4 mb-2">
+        <a href="#" class="default-btn" data-effect="mfp-move-horizontal">Get Started <i
+            class="fas fa-long-arrow-alt-right"></i>
+        </a>
       </div>
     </div>
   </section>
+
+
+
+ <!-- Services Sec Start -->
+  <section class="services-sec service-area-two">
+    <div class="container">
+      <div class="section-title">
+        <span>Our Services</span>
+        <h2>Fix a Device</h2>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-4 col-sm-6">
+          <!-- Single Services Start -->
+          <div class="single-service">
+            <div class="service-content-wrap">
+              <img src="images/services-icon/display.png" alt="">
+              <h3>Display issue</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Harum delectus illo rerum quidem! Nam maiores vel impedit
+                quisquam.
+              </p>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="service-details.html">
+                <h3>Display issue</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <!-- Single Services Start -->
+          <div class="single-service">
+            <div class="service-content-wrap">
+              <img src="images/services-icon/audio.png" alt="">
+              <h3>Audio Issue</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Harum delectus illo rerum quidem! Nam maiores vel impedit
+                quisquam.
+              </p>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="service-details.html">
+                <h3>Audio Issue</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <!-- Single Services Start -->
+          <div class="single-service">
+            <div class="service-content-wrap">
+              <img src="images/services-icon/charging.png" alt="">
+              <h3>Charging Issue</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Harum delectus illo rerum quidem! Nam maiores vel impedit
+                quisquam.
+              </p>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="service-details.html">
+                <h3>Charging Issue</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+          <!-- Single Services Start -->
+          <div class="single-service">
+            <div class="service-content-wrap">
+              <img src="images/services-icon/laptop.png" alt="">
+              <h3>Laptop Repair</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Harum delectus illo rerum quidem! Nam maiores vel impedit
+                quisquam.
+              </p>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="service-details.html">
+                <h3>Laptop Repair</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <!-- Single Services Start -->
+          <div class="single-service">
+            <div class="service-content-wrap">
+              <img src="images/services-icon/tablet.png" alt="">
+              <h3>Tablet Repair</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Harum delectus illo rerum quidem! Nam maiores vel impedit
+                quisquam.
+              </p>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="service-details.html">
+                <h3>Tablet Repair</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <!-- Single Services Start -->
+          <div class="single-service">
+            <div class="service-content-wrap">
+              <img src="images/services-icon/quality-control.png" alt="">
+              <h3>Quality Support</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Harum delectus illo rerum quidem! Nam maiores vel impedit
+                quisquam.
+              </p>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="service-details.html">
+                <h3>Quality Support</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services-footer text-center">
+        <a href="#" class="default-btn">Explore More <i class="fas fa-long-arrow-alt-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>  
+
 
   <!-- Pricing Table Section -->
   <section class="pricing-sec">
@@ -324,144 +529,35 @@
   </section>
 
 
-
-  <!-- Services Sec Start -->
-  <section class="services-sec service-area-two">
+   <!-- About Sec Start -->
+  <section class="about-sec">
     <div class="container">
       <div class="section-title">
-        <span>Our Services</span>
-        <h2>Fix a Device</h2>
+        <span>What We Do </span>
+        <h2>About Us</h2>
       </div>
-      <div class="row mb-5">
-        <div class="col-lg-4 col-sm-6">
-          <!-- Single Services Start -->
-          <div class="single-service">
-            <div class="service-content-wrap">
-              <img src="images/services-icon/display.png" alt="">
-              <h3>Display issue</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Harum delectus illo rerum quidem! Nam maiores vel impedit
-                quisquam.
-              </p>
-            </div>
-            <div class="service-heading">
-              <a class="circle-read-more" href="service-details.html">
-                <h3>Display issue</h3>
-                <i class="ti ti-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <!-- Single Services Start -->
-          <div class="single-service">
-            <div class="service-content-wrap">
-              <img src="images/services-icon/audio.png" alt="">
-              <h3>Audio Issue</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Harum delectus illo rerum quidem! Nam maiores vel impedit
-                quisquam.
-              </p>
-            </div>
-            <div class="service-heading">
-              <a class="circle-read-more" href="service-details.html">
-                <h3>Audio Issue</h3>
-                <i class="ti ti-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-12 col-lg-5 mb-4">
+          <div class="video-promo-content mb-md-4 mb-lg-0">
+            <h2>Let the device be taken care by the Professionals</h2>
+            <p class="pb-4">
+              Interactively develop timely niche markets before extensive
+              imperatives. Professionally repurpose interoperable growth
+              strategies before effective core competencies.
+            </p>
 
-        <div class="col-lg-4 col-sm-6">
-          <!-- Single Services Start -->
-          <div class="single-service">
-            <div class="service-content-wrap">
-              <img src="images/services-icon/charging.png" alt="">
-              <h3>Charging Issue</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Harum delectus illo rerum quidem! Nam maiores vel impedit
-                quisquam.
-              </p>
-            </div>
-            <div class="service-heading">
-              <a class="circle-read-more" href="service-details.html">
-                <h3>Charging Issue</h3>
-                <i class="ti ti-angle-right"></i>
-              </a>
-            </div>
+            <a href="contact-us.html" class="default-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
           </div>
-        </div>
 
+        </div>
+        <div class="col-md-12 col-lg-6 my-3 mt-lg-0">
+          <div class="card border-0 shadow-sm text-white">
+            <img src="images/repairMan.jpg" alt="video" class="img-fluid rounded shadow-sm" />
 
-        <div class="col-lg-4 col-sm-6">
-          <!-- Single Services Start -->
-          <div class="single-service">
-            <div class="service-content-wrap">
-             <img src="images/services-icon/laptop.png" alt="">
-              <h3>Laptop Repair</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Harum delectus illo rerum quidem! Nam maiores vel impedit
-                quisquam.
-              </p>
-            </div>
-            <div class="service-heading">
-              <a class="circle-read-more" href="service-details.html">
-                <h3>Laptop Repair</h3>
-                <i class="ti ti-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <!-- Single Services Start -->
-          <div class="single-service">
-            <div class="service-content-wrap">
-               <img src="images/services-icon/tablet.png" alt="">
-              <h3>Tablet Repair</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Harum delectus illo rerum quidem! Nam maiores vel impedit
-                quisquam.
-              </p>
-            </div>
-            <div class="service-heading">
-              <a class="circle-read-more" href="service-details.html">
-                <h3>Tablet Repair</h3>
-                <i class="ti ti-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <!-- Single Services Start -->
-          <div class="single-service">
-            <div class="service-content-wrap">
-              <img src="images/services-icon/quality-control.png" alt="">
-              <h3>Quality Support</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Harum delectus illo rerum quidem! Nam maiores vel impedit
-                quisquam.
-              </p>
-            </div>
-            <div class="service-heading">
-              <a class="circle-read-more" href="service-details.html">
-                <h3>Quality Support</h3>
-                <i class="ti ti-angle-right"></i>
-              </a>
-            </div>
           </div>
         </div>
       </div>
-    <div class="services-footer text-center">
-        <a href="#" class="default-btn">Explore More <i
-          class="fas fa-long-arrow-alt-right"></i>
-      </a>
-    </div>
     </div>
   </section>
 
@@ -682,7 +778,7 @@
   </section>
 
   <!-- Main Footer -->
-  <footer class="main-footer" style="background-image: url(images/footer-bg.jpg); margin-top: 40px;">
+  <footer class="main-footer" style="background-image: url(images/footer-bg.jpg); margin-top: 0px;">
     <div class="container">
       <!--Widgets Section-->
       <div class="widgets-section">
@@ -691,7 +787,7 @@
           <div class="footer-column col-lg-6 col-md-4 col-sm-12">
             <div class="footer-widget logo-widget">
               <div class="logo">
-                <a href="index.html"><img src="images/logo-custom.png" alt="" /></a>
+                <a href="index.html"><img src="images/logo-main.png" alt="" /></a>
               </div>
               <div class="text">
                 We provide expert Business Coaching to both individuals and
