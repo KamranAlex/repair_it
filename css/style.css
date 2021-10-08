@@ -854,7 +854,7 @@ section {
 }
 .site-header__header-one .header-navigation .logo-box {
   background-color: #21bcd8;
-  padding: 17.15px 41.5px;
+  padding: 15.15px 35.5px;
 }
 .site-header__header-one .header-navigation .logo-box::before {
   content: '';
@@ -898,11 +898,9 @@ section {
   color: #ff5273;
 }
 .site-header__home-one .header-navigation .logo-box {
-  /* padding-left: 0;
-  padding-right: 85px; */
   background-color: transparent;
-  padding-left: 52px;
-  padding-right: 60px;
+  padding-left: 12px;
+  padding-right: 30px;
 }
 .site-header__home-one .header-navigation .logo-box img {
   position: relative;
@@ -911,7 +909,7 @@ section {
 .site-header__home-one .header-navigation .logo-box::before {
   top: 0;
   right: 0;
-  height: calc(100% + 8px);
+  height: calc(100% + 5px);
   width: 100000px;
   left: auto;
   -webkit-transform: skewX(-10deg);
@@ -932,8 +930,8 @@ section {
   background-color: #21bcd8;
   z-index: 10;
   top: 0;
-  right: -10px;
-  height: calc(100% + 18px);
+  right: -8px;
+  height: calc(100% + 14px);
   width: 100000px;
   opacity: 0.2;
   -webkit-transform: skewX(-10deg);
@@ -949,15 +947,15 @@ section {
   padding-left: 80px;
 }
 .site-header__home-one .stricked-menu .logo-box {
-  padding-top: 15px;
-  padding-bottom: 5px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 .site-header__home-one .stricked-menu .logo-box::before {
-  height: calc(100% + 10px);
+  height: calc(100% + 4px);
 }
 .site-header__home-one .stricked-menu .logo-box:after {
   content: '';
-  height: calc(100% + 22px);
+  height: calc(100% + 12px);
 }
 /** Quote Part **/
 .quote-part {
