@@ -1433,7 +1433,7 @@ a.slider-one__text {
 }
 
 .steps-card-agency {
-  height: 480px;
+  height: auto;
   padding-top: 2.5rem;
   padding-bottom: 2rem;
   background-color: #21bcd8;
@@ -1441,8 +1441,9 @@ a.slider-one__text {
 }
 
 .steps-card-agency .steps-card-header {
-  height: 70px;
-  padding: 1rem 2.5rem 1.5rem;
+  max-height: auto;
+  min-height: 70px;
+  padding: 1rem 2.5rem 0.5rem;
   margin: 0;
   text-align: left;
 }
@@ -1465,7 +1466,8 @@ a.slider-one__text {
 }
 
 .steps-card-agency .steps-card-body {
-  height: auto;
+  max-height: auto;
+  min-height: 270px;
   padding: 0 2.5rem 1rem;
 }
 .steps-card-agency .steps-card-body .steps-card-text {
@@ -1510,19 +1512,7 @@ a.slider-one__text {
   position: relative;
   margin-top: 40px;
 }
-/* .service-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(http://via.placeholder.com/380x330/000/fff);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-} */
+
 .service-card:hover {
   z-index: 1;
 }
@@ -4207,6 +4197,9 @@ a.video-play-icon-without-bip:hover {
     text-align: center !important;
     margin-top: 8px;
   }
+  .steps-card-agency .steps-title {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -4221,5 +4214,8 @@ a.video-play-icon-without-bip:hover {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+  .steps-card-agency .steps-title {
+    font-size: 1.8rem;
   }
 }
