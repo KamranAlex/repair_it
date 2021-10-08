@@ -909,11 +909,11 @@ section {
 .site-header__home-one .header-navigation .logo-box::before {
   top: 0;
   right: 0;
-  height: calc(100% + 5px);
+  height: calc(100% + 2px);
   width: 100000px;
   left: auto;
-  -webkit-transform: skewX(-10deg);
-  transform: skewX(-10deg);
+  -webkit-transform: skewX(-13deg);
+  transform: skewX(-13deg);
   -webkit-clip-path: none;
   clip-path: none;
   z-index: 12;
@@ -930,12 +930,12 @@ section {
   background-color: #21bcd8;
   z-index: 10;
   top: 0;
-  right: -8px;
-  height: calc(100% + 14px);
+  right: -7px;
+  height: calc(100% + 8px);
   width: 100000px;
   opacity: 0.2;
-  -webkit-transform: skewX(-10deg);
-  transform: skewX(-10deg);
+  -webkit-transform: skewX(-13deg);
+  transform: skewX(-13deg);
 }
 
 @media (max-width: 1199px) {
