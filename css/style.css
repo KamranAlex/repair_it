@@ -27,7 +27,7 @@
 
 /*
 ====================================================================
-1. Fonts - Lato // Muli // Titillium Web // Poppins // Roboto
+**** Fonts - Lato // Muli // Titillium Web // Poppins // Roboto
 ====================================================================
 */
 @import url('https://fonts.googleapis.com/css?family=Muli:400,500,700,800|Lato:300,400,700,900');
@@ -36,7 +36,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /*
 ================================================
-2. Common CSS
+**** Common CSS ****
 ================================================
 */
 * {
@@ -287,7 +287,7 @@ section {
 }
 /*
 ================================================
-3. Loader CSS
+**** Loader CSS ****
 ================================================
 */
 #dvLoading {
@@ -297,21 +297,10 @@ section {
   position: fixed;
   z-index: 9999999;
 }
+
 /*
 ================================================
-3. Loader CSS
-================================================
-*/
-#dvLoading {
-  background: url(../images/loader.gif) no-repeat center center #fff;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 9999999;
-}
-/*
-================================================
-4. Top Bar
+**** Top Bar ****
 ================================================
 */
 .topbar-one {
@@ -575,7 +564,7 @@ section {
 }
 /*
 ================================================
-5. Header 
+**** Header ****
 ================================================
 */
 .header-navigation {
@@ -1082,7 +1071,7 @@ section {
 }
 /*
 ================================================
-6. Slider 
+***** Header Slider *****
 ================================================
 */
 .slider-one {
@@ -1351,28 +1340,28 @@ a.slider-one__text {
 }
 /*
 =============================================================
-7. Process Sec 
+***** Feature Sec *****
 ==============================================================
 */
-.process-sec {
+.feature-sec {
   position: relative;
   z-index: 1;
 }
 
-.process-block {
+.feature-block {
   position: relative;
   background: #21bcd8;
   width: 100%;
   margin: 0 auto;
 }
-.process-block .inner-box {
+.feature-block .inner-box {
   position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 42px;
+  padding-bottom: 42px;
   text-align: center;
 }
 
-.process-block .inner-box .process-items {
+.feature-block .inner-box .feature-items {
   position: relative;
   justify-content: center;
   align-items: center;
@@ -1380,16 +1369,22 @@ a.slider-one__text {
   padding-right: 24px;
 }
 
-.process-block .inner-box .process-items .process-text {
-  font-family: 'Titillium Web', sans-serif;
-  color: #ffffff;
+.feature-block .inner-box .feature-items .feature-text {
+  text-align: initial;
+  font-family: 'Poppins', sans-serif;
+  color: #f8f8f8;
   font-size: 2rem;
   font-weight: 600;
 }
-.process-block .inner-box .process-items img {
+.feature-block .inner-box .feature-items span {
+  color: #f8f8f8;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.feature-block .inner-box .feature-items img {
   width: 64px;
 }
-.process-block .inner-box .quote-outer {
+.feature-block .inner-box .quote-outer {
   position: relative;
   width: 180px;
   margin: 0 auto;
@@ -1398,7 +1393,7 @@ a.slider-one__text {
 
 /*
 ================================================
-12. Steps Sec 
+***** Steps Sec ***** 
 ================================================
 */
 
@@ -1485,7 +1480,7 @@ a.slider-one__text {
 
 /*
 ================================================
-9. Services Sec 
+***** Services Sec *****
 ================================================
 */
 .services-sec {
@@ -1894,7 +1889,111 @@ a.slider-one__text {
 
 /*
 ================================================
-8. About Sec 
+***** Pricing Table Sec ***** 
+================================================
+*/
+.pricing-sec .section-title {
+  margin: 0 0 10px;
+}
+/** Single Pricing Table Sec **/
+.pricing-table {
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+  margin-top: 24px;
+}
+.pricing-table .pricing-table-icon {
+  margin-bottom: 12px;
+  position: relative;
+  text-align: center;
+}
+.pricing-table .pricing-table-icon img {
+  height: 46px;
+}
+.pricing-table-agency {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  background-color: #fff;
+  box-shadow: 0 40px 125px rgba(0, 0, 0, 0.07);
+}
+.pricing-table-agency .pricing-table-featured-label {
+  padding: 5px 30px;
+  border-radius: 0 0 50em 50em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from #d1641a,
+    to #ff5273
+  );
+  background: linear-gradient(to right, #d1641a 0%, #ff5273 100%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #fff;
+}
+.pricing-table-agency .pricing-table-header {
+  padding: 0 1.5rem;
+  margin-bottom: 0;
+}
+.pricing-table-agency .pricing-table-header h5 {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+.pricing-table-agency .pricing {
+  font-size: 56px;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+.pricing-table-agency .pricing sup,
+.pricing-table-agency .pricing small {
+  font-size: 0.3571428571em;
+  font-weight: 400;
+}
+.pricing-table-agency .pricing sup {
+  top: -1.25em;
+  margin-right: 0.2em;
+}
+.pricing-table-agency .pricing small {
+  opacity: 0.6;
+}
+/* .pricing-table-agency .pricing small:before {
+  content: '/';
+} */
+.pricing-table-agency .pricing-table-body {
+  padding: 0 4rem;
+  margin-bottom: 2rem;
+}
+.pricing-table-agency .pricing-table-body li {
+  text-align: left;
+  padding: 0.5em 0.25em;
+  border-top: 1px solid #ebeff1;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+.pricing-table-agency .pricing-table-body li span {
+  color: #ff5273;
+}
+.pricing-table.featured .default-btn {
+  background-color: #ff5273;
+  box-shadow: none;
+}
+
+/*
+================================================
+****** About Sec *****
 ================================================
 */
 .inner-wrapper.about-sec {
@@ -2020,343 +2119,7 @@ a.video-play-icon-without-bip:hover {
 .about-img-wrap img {
   display: block;
 }
-/*
-================================================
-10. Our Team Sec 
-================================================
-*/
-.our-team-sec .section-title {
-  margin: 0;
-}
-.our-team-sec.inner-wrapper {
-  padding: 40px 0 80px;
-}
-/** Single Team **/
-.single-team {
-  position: relative;
-  overflow: hidden;
-  margin-top: 40px;
-}
-.single-team:before {
-  content: '';
-  position: absolute;
-  left: 170%;
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.2);
-  -webkit-transform: skewX(45deg);
-  transform: skewX(45deg);
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-}
-.single-team img {
-  width: 100%;
-  height: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-.single-team .team-content {
-  position: absolute;
-  background: #21bcd8;
-  width: 100%;
-  bottom: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform: perspective(300px) rotateX(90deg);
-  transform: perspective(300px) rotateX(90deg);
-  -webkit-transform-origin: bottom;
-  transform-origin: bottom;
-  text-align: center;
-  padding: 10px;
-}
-.single-team .team-content h3 {
-  margin: 0;
-  color: #ffffff;
-}
-.single-team .team-content span {
-  color: #ffffff;
-  font-size: 13px;
-}
-.single-team ul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.single-team ul li {
-  background: #21bcd8;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  border-bottom: 1px solid #30cde9;
-  -webkit-transform: perspective(1000px) rotateY(90deg);
-  transform: perspective(1000px) rotateY(90deg);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform-origin: left;
-  transform-origin: left;
-}
-.single-team ul li:hover {
-  background-color: #fa4612;
-}
-.single-team ul li a {
-  color: #ffffff;
-}
-.single-team ul li:nth-child(1) {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-.single-team ul li:nth-child(2) {
-  -webkit-transition-delay: 0.4s;
-  transition-delay: 0.4s;
-}
-.single-team ul li:nth-child(3) {
-  -webkit-transition-delay: 0.6s;
-  transition-delay: 0.6s;
-}
-.single-team ul li:nth-child(4) {
-  -webkit-transition-delay: 0.8s;
-  transition-delay: 0.8s;
-}
-.single-team:hover:before {
-  left: -170%;
-  -webkit-transition-delay: 0.8s;
-  transition-delay: 0.8s;
-}
-.single-team:hover img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-.single-team:hover .team-content {
-  -webkit-transform: perspective(300px) rotateX(0deg);
-  transform: perspective(300px) rotateX(0deg);
-}
-.single-team:hover ul li {
-  -webkit-transform: rotateX(0deg);
-  transform: rotateX(0deg);
-}
-/*
-================================================
-11. Counter Sec 
-================================================
-*/
-.counter-section {
-  position: relative;
-  padding: 90px 0px 60px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.counter-section .section-title h2 {
-  color: #fff;
-}
-.counter-section:before {
-  position: absolute;
-  content: '';
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.85);
-}
-.counter-section .sec-title {
-  margin-bottom: 50px;
-}
-/*Fact Counter*/
-.fact-counter {
-  position: relative;
-}
-.fact-counter .column {
-  position: relative;
-  z-index: 5;
-  margin-bottom: 30px;
-}
-.fact-counter .column .inner {
-  position: relative;
-  width: 230px;
-  height: 230px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 65px 20px;
-  overflow: hidden;
-  display: inline-block;
-  border-radius: 150px 150px 0px 150px;
-  background-color: #363636;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-}
-.fact-counter .column .inner:before {
-  position: absolute;
-  content: '';
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 100%;
-  transition: all 600ms ease;
-  -moz-transition: all 600ms ease;
-  -webkit-transition: all 600ms ease;
-  -ms-transition: all 600ms ease;
-  -o-transition: all 600ms ease;
-  background-image: -ms-linear-gradient(left, #d1641a 0%, #ff5273 100%);
-  background-image: -moz-linear-gradient(left, #d1641a 0%, #ff5273 100%);
-  background-image: -o-linear-gradient(left, #d1641a 0%, #ff5273 100%);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(0, #d1641a),
-    color-stop(100, #ff5273)
-  );
-  background-image: -webkit-linear-gradient(left, #d1641a 0%, #ff5273 100%);
-  background-image: linear-gradient(to right, #d1641a 0%, #ff5273 100%);
-}
-.fact-counter .column .inner:hover::before {
-  width: 100%;
-}
-.fact-counter .count-outer {
-  position: relative;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 48px;
-  line-height: 1em;
-}
-.fact-counter .count-outer .count-text {
-  position: relative;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 48px;
-}
-.fact-counter .column .counter-title {
-  position: relative;
-  font-size: 22px;
-  font-weight: 500;
-  color: #ffffff;
-  margin-top: 18px;
-  line-height: 1.3em;
-  text-transform: capitalize;
-  display: block;
-}
-.fact-counter .count-outer .text {
-  position: relative;
-  color: #ffffff;
-  font-size: 14px;
-  margin-top: 6px;
-  font-weight: 400;
-}
-/*
-================================================
-12. Pricing Table Sec 
-================================================
-*/
-.pricing-sec .section-title {
-  margin: 0 0 10px;
-}
-/** Single Pricing Table Sec **/
-.pricing-table {
-  margin-bottom: 0;
-  position: relative;
-  text-align: center;
-  margin-top: 24px;
-}
-.pricing-table .pricing-table-icon {
-  margin-bottom: 12px;
-  position: relative;
-  text-align: center;
-}
-.pricing-table .pricing-table-icon img {
-  height: 46px;
-}
-.pricing-table-agency {
-  padding-top: 2.5rem;
-  padding-bottom: 3rem;
-  background-color: #fff;
-  box-shadow: 0 40px 125px rgba(0, 0, 0, 0.07);
-}
-.pricing-table-agency .pricing-table-featured-label {
-  padding: 5px 30px;
-  border-radius: 0 0 50em 50em;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from #d1641a,
-    to #ff5273
-  );
-  background: linear-gradient(to right, #d1641a 0%, #ff5273 100%);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  font-size: 16px;
-  line-height: 1.5em;
-  color: #fff;
-}
-.pricing-table-agency .pricing-table-header {
-  padding: 0 1.5rem;
-  margin-bottom: 0;
-}
-.pricing-table-agency .pricing-table-header h5 {
-  margin: 0;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-.pricing-table-agency .pricing {
-  font-size: 56px;
-  line-height: 1.5em;
-  font-weight: 700;
-  color: #000;
-  margin: 0;
-}
-.pricing-table-agency .pricing sup,
-.pricing-table-agency .pricing small {
-  font-size: 0.3571428571em;
-  font-weight: 400;
-}
-.pricing-table-agency .pricing sup {
-  top: -1.25em;
-  margin-right: 0.2em;
-}
-.pricing-table-agency .pricing small {
-  opacity: 0.6;
-}
-/* .pricing-table-agency .pricing small:before {
-  content: '/';
-} */
-.pricing-table-agency .pricing-table-body {
-  padding: 0 4rem;
-  margin-bottom: 2rem;
-}
-.pricing-table-agency .pricing-table-body li {
-  text-align: left;
-  padding: 0.5em 0.25em;
-  border-top: 1px solid #ebeff1;
-  font-size: 14px;
-  line-height: 1.5em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #2e2e2e;
-}
-.pricing-table-agency .pricing-table-body li span {
-  color: #ff5273;
-}
-.pricing-table.featured .default-btn {
-  background-color: #ff5273;
-  box-shadow: none;
-}
+
 /*
 ================================================
 13. Testimonials Sec 
@@ -2550,6 +2313,242 @@ a.video-play-icon-without-bip:hover {
   font-size: 16px;
   margin: 0px 2px;
 }
+
+/*
+================================================
+12. Our Team Sec 
+================================================
+*/
+.our-team-sec .section-title {
+  margin: 0;
+}
+.our-team-sec.inner-wrapper {
+  padding: 40px 0 80px;
+}
+/** Single Team **/
+.single-team {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+.single-team:before {
+  content: '';
+  position: absolute;
+  left: 170%;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.single-team img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.single-team .team-content {
+  position: absolute;
+  background: #21bcd8;
+  width: 100%;
+  bottom: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: perspective(300px) rotateX(90deg);
+  transform: perspective(300px) rotateX(90deg);
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+  text-align: center;
+  padding: 10px;
+}
+.single-team .team-content h3 {
+  margin: 0;
+  color: #ffffff;
+}
+.single-team .team-content span {
+  color: #ffffff;
+  font-size: 13px;
+}
+.single-team ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.single-team ul li {
+  background: #21bcd8;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid #30cde9;
+  -webkit-transform: perspective(1000px) rotateY(90deg);
+  transform: perspective(1000px) rotateY(90deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+.single-team ul li:hover {
+  background-color: #fa4612;
+}
+.single-team ul li a {
+  color: #ffffff;
+}
+.single-team ul li:nth-child(1) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.single-team ul li:nth-child(2) {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.single-team ul li:nth-child(3) {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.single-team ul li:nth-child(4) {
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+.single-team:hover:before {
+  left: -170%;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+.single-team:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.single-team:hover .team-content {
+  -webkit-transform: perspective(300px) rotateX(0deg);
+  transform: perspective(300px) rotateX(0deg);
+}
+.single-team:hover ul li {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/*
+================================================
+13. Counter Sec 
+================================================
+*/
+.counter-section {
+  position: relative;
+  padding: 90px 0px 60px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counter-section .section-title h2 {
+  color: #fff;
+}
+.counter-section:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.counter-section .sec-title {
+  margin-bottom: 50px;
+}
+/*Fact Counter*/
+.fact-counter {
+  position: relative;
+}
+.fact-counter .column {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 30px;
+}
+.fact-counter .column .inner {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 65px 20px;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 150px 150px 0px 150px;
+  background-color: #363636;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.fact-counter .column .inner:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 100%;
+  transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -webkit-transition: all 600ms ease;
+  -ms-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  background-image: -ms-linear-gradient(left, #d1641a 0%, #ff5273 100%);
+  background-image: -moz-linear-gradient(left, #d1641a 0%, #ff5273 100%);
+  background-image: -o-linear-gradient(left, #d1641a 0%, #ff5273 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #d1641a),
+    color-stop(100, #ff5273)
+  );
+  background-image: -webkit-linear-gradient(left, #d1641a 0%, #ff5273 100%);
+  background-image: linear-gradient(to right, #d1641a 0%, #ff5273 100%);
+}
+.fact-counter .column .inner:hover::before {
+  width: 100%;
+}
+.fact-counter .count-outer {
+  position: relative;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1em;
+}
+.fact-counter .count-outer .count-text {
+  position: relative;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+}
+.fact-counter .column .counter-title {
+  position: relative;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 18px;
+  line-height: 1.3em;
+  text-transform: capitalize;
+  display: block;
+}
+.fact-counter .count-outer .text {
+  position: relative;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
 /*
 ================================================
 14. Blog Sec 
@@ -4195,6 +4194,13 @@ a.video-play-icon-without-bip:hover {
     text-align: center !important;
     margin-top: 8px;
   }
+  .feature-block .inner-box {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
   .steps-card-agency .steps-title {
     font-size: 1.8rem;
   }
@@ -4212,6 +4218,13 @@ a.video-play-icon-without-bip:hover {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+  .feature-block .inner-box {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   .steps-card-agency .steps-title {
     font-size: 1.8rem;

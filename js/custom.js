@@ -48,9 +48,10 @@ $(function () {
       animateOut: 'slideOutDown',
       animateIn: 'fadeIn',
       active: true,
-      smartSpeed: 1000,
-      autoplay: 7000
-      // autoplay: false
+      // smartSpeed: 1000,
+      // autoplay: 12000,
+      autoplay: true,
+      autoplayTimeout: 7000
     });
     slideOneWrap.find('.slide-one__left-btn').on('click', function (e) {
       slideOneCarousel.trigger('next.owl.carousel');
@@ -63,10 +64,10 @@ $(function () {
   }
 
   /*--------------------------
-       Process Carousel
+       Feature Carousel
     ---------------------------- */
-  if ($('.process-carousel').length) {
-    var $sync3 = $('.process-carousel'),
+  if ($('.feature-carousel').length) {
+    var $sync3 = $('.feature-carousel'),
       // $sync4 = $('.client-thumbs-carousel'),
       flag = false,
       duration = 500;
