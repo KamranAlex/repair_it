@@ -39,10 +39,14 @@
 **** Common CSS ****
 ================================================
 */
+/* html{
+  scroll-behavior: smooth;
+} */
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
@@ -1401,6 +1405,7 @@ a.slider-one__text {
 
 .steps-sec {
   background-color: #ffffff;
+  padding: 70px 0;
   /* background-color: #ffecf0; */
 }
 
@@ -1506,7 +1511,7 @@ a.slider-one__text {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .service-card:hover {
