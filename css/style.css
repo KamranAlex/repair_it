@@ -1681,7 +1681,7 @@ a.slider-one__text {
   left: 0px;
   top: 0px;
   right: 0px;
-  height: 300px;
+  height: 100%;
   background-color: #f5f5f5;
 }
 .sidebar-services-category .services-cat {
@@ -1735,7 +1735,7 @@ a.slider-one__text {
   display: block;
   background-color: #ffffff;
   border-bottom: 1px solid #acacac;
-  padding: 20px 32px 16px 38px;
+  padding: 14px 38px 12px 40px;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -1758,13 +1758,13 @@ a.slider-one__text {
 .sidebar-services-category li:hover a span {
   color: #ffffff;
 }
-.sidebar-services-category li a:before {
+.sidebar-services-category li a:after {
   position: absolute;
-  content: '\f0d9';
-  left: 22px;
-  top: 18px;
+  content: '\f0da';
+  right: 24px;
+  top: 16px;
   color: #21bcd8;
-  font-size: 18px;
+  font-size: 16px;
   z-index: 1;
   font-family: 'FontAwesome';
   transition: all 500ms ease;
@@ -1773,8 +1773,8 @@ a.slider-one__text {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.sidebar-services-category li.active a:before,
-.sidebar-services-category li:hover a::before {
+.sidebar-services-category li.active a:after,
+.sidebar-services-category li:hover a::after {
   color: #ffffff;
 }
 .sidebar-services-category li.active a,
@@ -3042,7 +3042,7 @@ a.video-play-icon-without-bip:hover {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .page-breadcrumb li:after {
   position: absolute;
