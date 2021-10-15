@@ -1671,9 +1671,15 @@ a.slider-one__text {
 .sidebar-services-category {
   position: relative;
 }
+.widget-title{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c2c2c;
+}
 .sidebar-services-category .widget-content {
   position: relative;
-  padding: 40px 35px;
+  padding: 24px;
 }
 .sidebar-services-category .widget-content:before {
   position: absolute;
