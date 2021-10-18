@@ -1854,7 +1854,11 @@ a.slider-one__text {
   box-shadow: none;
 }
 
-.sticky-cart .cart-form button {
+.sticky-cart .cart-form .form-group .error-text {
+  color: #ff8e8f;
+}
+
+.sticky-cart .cart-form .issue-submit-btn {
   padding: 8px 20px;
   background: #21bcd8;
   color: #ffffff;
@@ -1863,8 +1867,9 @@ a.slider-one__text {
   border-radius: 0.25rem;
   outline: none;
   text-transform: uppercase;
+  outline: none;
 }
-.sticky-cart .cart-form button:hover {
+.sticky-cart .cart-form .issue-submit-btn:hover {
   background: #ff5273;
   border: 1px solid #ff5273;
 }
