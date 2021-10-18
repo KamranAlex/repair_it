@@ -1614,11 +1614,11 @@ a.slider-one__text {
   border: 1px solid #21bcd8 !important;
   margin: auto;
 }
-.issue-card:hover{
+.issue-card:hover {
   border: 1px solid #ff5273 !important;
 }
 .issue-card img {
-  height: 120px;
+  height: 80px;
   width: auto;
   margin: 0 auto;
 }
@@ -1629,10 +1629,10 @@ a.slider-one__text {
   font-size: 1rem;
   font-weight: 600;
   color: #000000;
-  border-bottom-left-radius: .25rem;
-  border-bottom-right-radius: .25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
-.issue-card .isuue-btn:hover{
+.issue-card .isuue-btn:hover {
   background-color: #ff5273;
   color: #ebebeb;
 }
@@ -1705,7 +1705,7 @@ a.slider-one__text {
 }
 .sidebar-services-category .widget-content {
   position: relative;
-  padding: 24px;
+  padding: 12px;
 }
 .sidebar-services-category .widget-content:before {
   position: absolute;
@@ -1767,7 +1767,7 @@ a.slider-one__text {
   display: block;
   background-color: #ffffff;
   border-bottom: 1px solid #acacac;
-  padding: 14px 38px 12px 40px;
+  padding: 8px 38px 6px 40px;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -1794,9 +1794,9 @@ a.slider-one__text {
   position: absolute;
   content: '\f0da';
   right: 24px;
-  top: 16px;
+  top: 9px;
   color: #21bcd8;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 1;
   font-family: 'FontAwesome';
   transition: all 500ms ease;
@@ -1815,24 +1815,66 @@ a.slider-one__text {
 }
 
 .sidebar-cart .sticky-cart {
-  height: 200px;
-  background-color: red;
+  height: auto;
+  background-color: #ffffff;
   top: 100px;
   position: -webkit-sticky;
   position: sticky;
-  border: 1px solid #d3d3d3;
-  /* margin: 10px;
-  padding-left: 10px; */
-  -webkit-box-shadow: 0 0 6px 2px #d7d7d7;
-  box-shadow: 0 0 6px 2px #d7d7d7;
+  /* border: 1px solid #d3d3d3; */
+}
+
+.sticky-cart .cart-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.sticky-cart .cart-form {
+  padding: 16px;
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: 0 0 6px 2px #ebebeb;
+  box-shadow: 0 0 8px 2px #ebebeb;
+}
+.sticky-cart .cart-form input,
+.sticky-cart .cart-form textarea {
+  border-color: rgb(33, 188, 216);
+}
+.sticky-cart .cart-form input::placeholder,
+.sticky-cart .cart-form textarea::placeholder {
+  color: rgb(146, 146, 146);
+  font-size: 14px;
+  font-style: oblique;
+}
+.sticky-cart .cart-form input:focus,
+.sticky-cart .cart-form textarea:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: rgb(33, 188, 216);
+  outline: 0;
+  box-shadow: none;
+}
+
+.sticky-cart .cart-form button {
+  padding: 8px 20px;
+  background: #21bcd8;
+  color: #ffffff;
+  font-weight: 600;
+  border: 1px solid #21bcd8;
+  border-radius: 0.25rem;
+  outline: none;
+  text-transform: uppercase;
+}
+.sticky-cart .cart-form button:hover {
+  background: #ff5273;
+  border: 1px solid #ff5273;
 }
 /* Brochure Box */
 
 .brochure-box {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   border-radius: 0px;
-  padding: 20px 15px 20px 30px;
+  padding: 8px 15px 8px 30px;
   transition: all 0.3s ease;
   background-color: #f5f5f5;
   -moz-transition: all 0.3s ease;
@@ -1874,9 +1916,11 @@ a.slider-one__text {
 .brochure-box .inner .icon {
   position: absolute;
   left: 0px;
-  top: 0px;
+  /* top: 4px; */
+  bottom: 6px;
   color: #000000;
-  font-size: 28px;
+  height: 36px;
+  font-size: 18px;
   font-weight: 500;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1887,7 +1931,7 @@ a.slider-one__text {
 .brochure-box .inner .text {
   position: relative;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   color: #666666;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1902,6 +1946,7 @@ a.slider-one__text {
 .brochure-box:hover .text {
   color: #ffffff;
 }
+
 /* Contact Widget */
 
 .contact-widget .widget-content {
