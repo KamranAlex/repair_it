@@ -1610,6 +1610,32 @@ a.slider-one__text {
 .service-details-wrapper .content-side {
   margin-bottom: 40px;
 }
+.issue-card {
+  border: 1px solid #21bcd8 !important;
+  margin: auto;
+}
+.issue-card:hover{
+  border: 1px solid #ff5273 !important;
+}
+.issue-card img {
+  height: 120px;
+  width: auto;
+  margin: 0 auto;
+}
+.issue-card .isuue-btn {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #21bcd8;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
+.issue-card .isuue-btn:hover{
+  background-color: #ff5273;
+  color: #ebebeb;
+}
 .service-details-wrapper .sidebar-side .sidebar {
   position: relative;
 }
@@ -1671,7 +1697,7 @@ a.slider-one__text {
 .sidebar-services-category {
   position: relative;
 }
-.widget-title{
+.widget-title {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
@@ -1786,6 +1812,19 @@ a.slider-one__text {
 .sidebar-services-category li.active a,
 .sidebar-services-category li a:hover {
   color: #ffffff;
+}
+
+.sidebar-cart .sticky-cart {
+  height: 200px;
+  background-color: red;
+  top: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  border: 1px solid #d3d3d3;
+  /* margin: 10px;
+  padding-left: 10px; */
+  -webkit-box-shadow: 0 0 6px 2px #d7d7d7;
+  box-shadow: 0 0 6px 2px #d7d7d7;
 }
 /* Brochure Box */
 
