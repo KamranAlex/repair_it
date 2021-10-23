@@ -291,10 +291,13 @@ $(function () {
   $(document).on('click', 'a[href^="#selectDevice"]', function (event) {
     event.preventDefault();
 
-    $('html, body').animate({
+    $('html, body').animate(
+      {
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
+      },
+      500
+    );
+  });
 
   /*------------------------------------------------------------------
         Year
@@ -322,10 +325,18 @@ $(function () {
 /*------------------------------------------------------------------
  Loader 
 ------------------------------------------------------------------*/
+
 jQuery(window).on('load scroll', function () {
   'use strict'; // Start of use strict
   // Loader
   $('#dvLoading').fadeOut('slow', function () {
     $(this).remove();
   });
+});
+
+/*------------------------------------------------------------------
+ Confirm modal
+------------------------------------------------------------------*/
+$(window).on('load', function () {
+  $('#haveWarrantyModal').modal('show');
 });
