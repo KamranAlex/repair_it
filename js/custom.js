@@ -341,7 +341,7 @@ $(window).on('load', function () {
   $('#haveWarrantyModal').modal('show');
 });
 
-$('#haveWarrantyModal').modal({
-  backdrop: 'static',
-  keyboard: false
-});
+// $('#haveWarrantyModal').modal({
+//   backdrop: 'static',
+//   keyboard: false
+// });
