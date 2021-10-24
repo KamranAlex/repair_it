@@ -340,3 +340,8 @@ jQuery(window).on('load scroll', function () {
 $(window).on('load', function () {
   $('#haveWarrantyModal').modal('show');
 });
+
+$('#haveWarrantyModal').modal({
+  backdrop: 'static',
+  keyboard: false
+});

@@ -3136,9 +3136,10 @@ Have Warranty Modal
   -webkit-animation: moveLeftBounces 10s linear infinite;
   animation: moveLeftBounces 10s linear infinite;
 }
+
 .modal-haveWarranty .warrantyModal-card img {
-  max-height: 258px;
-  width: 100%;
+  max-height: 200px;
+  width: auto;
 }
 
 .modal-haveWarranty .btn-voidWarranty {
@@ -3151,8 +3152,39 @@ Have Warranty Modal
   -o-border-radius: 5px;
   display: inline-block;
   color: #fff;
-  font-size: 16px;
-  padding: 13px 45px 11px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 9px 45px;
+  transition: 0.3s ease;
+}
+.modal-haveWarranty .btn-activeWarranty {
+  background-color: #4ab45b;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 9px 45px;
+  transition: 0.3s ease;
+}
+.modal-haveWarranty .warrantyModal-card .btn-voidWarranty:focus,
+.modal-haveWarranty .warrantyModal-card .btn-activeWarranty:focus {
+  outline: none;
+}
+.modal-haveWarranty .warrantyModal-card .btn-voidWarranty:hover {
+  cursor: pointer;
+  box-shadow: 0 0 7px 3px #ffbecb;
+}
+.modal-haveWarranty .warrantyModal-card .btn-activeWarranty:hover {
+  cursor: pointer;
+  box-shadow: 0 0 7px 3px #bdecc3;
 }
 
 /*

@@ -117,35 +117,39 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-haveWarranty modal-dialog-centered px-5">
-        <div class="container">
-          <button
-            type="button"
-            class="close"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="section-title">
-            <h2 class="text-center head-two warrantyModal-title">
-              Do you have warranty for your device ?
-            </h2>
-          </div>
-          <div class="card-deck">
-            <div class="card warrantyModal-card">
-              <div class="card-body text-center">
-                <img src="images/warranty-void.png" alt="warranty-active" />
-                <div class="mt-3">
-                  <button class="btn-voidWarranty">Yes</button>
+        <div class="modal-content border-0">
+          <div class="container">
+            <div class="section-title">
+              <h2 class="text-center head-two warrantyModal-title">
+                Do you have warranty for your device ?
+              </h2>
+            </div>
+            <div class="card-deck">
+              <div
+                class="card warrantyModal-card"
+                style="border: 1px solid #ffbdca"
+              >
+                <div class="card-body text-center">
+                  <img src="images/warranty-void.png" alt="warranty-active" />
+                  <div class="mt-3">
+                    <button class="btn-voidWarranty" data-dismiss="modal">
+                      No
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="card warrantyModal-card">
-              <div class="card-body text-center">
-                <img src="images/warranty-active.png" alt="warranty-void" />
-                <div class="mt-3">
-                  <button class="btn-activeWarranty">Yes</button>
+              <div
+                class="card warrantyModal-card"
+                style="border: 1px solid #b7e1be"
+              >
+                <div class="card-body text-center">
+                  <img src="images/warranty-active.png" alt="warranty-void" />
+                  <div class="mt-3">
+                    <button class="btn-activeWarranty" data-dismiss="modal">
+                      Yes
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
