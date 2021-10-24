@@ -3097,21 +3097,15 @@ Have Warranty Modal
   transition: 1s all;
   max-width: 800px !important;
   transition: 1s all;
-  /* padding: 4rem 2.5rem; */
   border-radius: 4px;
   font-family: 'Poppins', sans-serif;
 }
-/* .modal-haveWarranty .modal-dialog {
-  max-width: 800px !important;
-} */
+
 .modal-haveWarranty .section-title {
   margin-bottom: 30px;
   padding-bottom: 0;
 }
-.section-title .section-span {
-  font-size: 15px;
-  color: #ff5273;
-}
+
 .section-title .head-two {
   font-size: 38px;
   font-weight: 600;
@@ -3142,19 +3136,12 @@ Have Warranty Modal
   -webkit-animation: moveLeftBounces 10s linear infinite;
   animation: moveLeftBounces 10s linear infinite;
 }
-.modal-haveWarranty .form-control {
-  height: 50px;
-  margin-bottom: 30px;
-  box-shadow: none;
-  border-color: #ced4da;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  color: #999;
+.modal-haveWarranty .warrantyModal-card img {
+  max-height: 258px;
+  width: 100%;
 }
-.modal-haveWarranty textarea.form-control {
-  height: unset;
-}
-.modal-haveWarranty.quote-contact-btn {
+
+.modal-haveWarranty .btn-voidWarranty {
   background-color: #ff5273;
   border: none;
   text-align: center;
@@ -3166,80 +3153,6 @@ Have Warranty Modal
   color: #fff;
   font-size: 16px;
   padding: 13px 45px 11px;
-}
-.modal-haveWarranty .contact-detail-grp {
-  height: 100%;
-  width: 100%;
-  background-color: #f5f5f5;
-  text-align: center;
-  position: relative;
-}
-.modal-haveWarranty .contact-detail-grp .contact-middle {
-  top: 50%;
-  transform: translateY(-50%);
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail {
-  margin-bottom: 20px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail .head-three {
-  color: #999;
-  font-weight: 500;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail a {
-  color: #f36d86;
-  font-weight: 600;
-  font-size: 18px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail .head-three {
-  color: #999;
-  font-weight: 500;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail a {
-  color: #f36d86;
-  font-weight: 600;
-  font-size: 18px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail:last-child {
-  margin-bottom: 0;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail.social-ac .head-three {
-  margin-bottom: 10px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail a {
-  color: #f36d86;
-  font-weight: 600;
-  font-size: 18px;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail.social-ac i:hover {
-  background-color: #ff5273;
-  color: #fff;
-}
-.modal-haveWarranty .contact-detail-grp .contact-detail.social-ac i {
-  text-decoration: none;
-  font-size: 14px;
-  color: #f36d86;
-  width: 35px;
-  height: 35px;
-  background: #fff;
-  text-align: center;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  display: inline-block;
-  padding-top: 10px;
-  margin: 0 4px;
 }
 
 /*
