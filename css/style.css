@@ -3301,8 +3301,8 @@ Have Warranty Modal
   margin-bottom: 0px;
   border-bottom: 1px solid #d7d7d7;
 }
-.accordion-box .block.active-block {
-}
+/* .accordion-box .block.active-block {
+} */
 .accordion-box .block:last-child {
   border-bottom: 0px;
 }
@@ -3322,8 +3322,8 @@ Have Warranty Modal
   -webkit-transition: all 500ms ease;
   font-family: 'Poppins', sans-serif;
 }
-.accordion-box .block .acc-btn.active {
-}
+/* .accordion-box .block .acc-btn.active {
+} */
 .accordion-box .block .icon-outer {
   position: absolute;
   left: 0px;
@@ -4410,6 +4410,9 @@ Have Warranty Modal
   .steps-card-agency .steps-title {
     font-size: 1.8rem;
   }
+  .modal-haveWarranty .warrantyModal-card img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -4435,5 +4438,8 @@ Have Warranty Modal
   }
   .steps-card-agency .steps-title {
     font-size: 1.8rem;
+  }
+  .modal-haveWarranty .warrantyModal-card img {
+    width: 100%;
   }
 }
