@@ -1694,7 +1694,7 @@ a.slider-one__text {
 }
 /*Blog Category*/
 
-.sidebar-services-category {
+.sidebar-device-models {
   position: relative;
 }
 .widget-title {
@@ -1703,11 +1703,11 @@ a.slider-one__text {
   font-weight: 600;
   color: #2c2c2c;
 }
-.sidebar-services-category .widget-content {
+.sidebar-device-models .widget-content {
   position: relative;
   padding: 12px;
 }
-.sidebar-services-category .widget-content:before {
+.sidebar-device-models .widget-content:before {
   position: absolute;
   content: '';
   left: 0px;
@@ -1716,10 +1716,10 @@ a.slider-one__text {
   height: 100%;
   background-color: #f5f5f5;
 }
-.sidebar-services-category .services-cat {
+.sidebar-device-models .model-opt {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-.sidebar-services-category li {
+.sidebar-device-models li {
   position: relative;
   margin-bottom: 1px;
   text-align: left;
@@ -1729,7 +1729,7 @@ a.slider-one__text {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.sidebar-services-category li:before {
+.sidebar-device-models li:before {
   position: absolute;
   content: '';
   left: 0px;
@@ -1755,11 +1755,11 @@ a.slider-one__text {
   background-image: -webkit-linear-gradient(left, #21bcd8 0%, #3cd5f1 100%);
   background-image: linear-gradient(to right, #21bcd8 0%, #3cd5f1 100%);
 }
-.sidebar-services-category li:hover::before,
-.sidebar-services-category li.active::before {
+.sidebar-device-models li:hover::before,
+.sidebar-device-models li.active::before {
   width: 100%;
 }
-.sidebar-services-category li a {
+.sidebar-device-models li a {
   position: relative;
   color: #393939;
   font-size: 15px;
@@ -1774,10 +1774,10 @@ a.slider-one__text {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.sidebar-services-category li:last-child a {
+.sidebar-device-models li:last-child a {
   border-bottom: 0px;
 }
-.sidebar-services-category li a span {
+.sidebar-device-models li a span {
   position: relative;
   z-index: 1;
   transition: all 500ms ease;
@@ -1786,11 +1786,11 @@ a.slider-one__text {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.sidebar-services-category li.active a span,
-.sidebar-services-category li:hover a span {
+.sidebar-device-models li.active a span,
+.sidebar-device-models li:hover a span {
   color: #ffffff;
 }
-.sidebar-services-category li a:after {
+.sidebar-device-models li a:after {
   position: absolute;
   content: '\f0da';
   right: 24px;
@@ -1805,12 +1805,12 @@ a.slider-one__text {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.sidebar-services-category li.active a:after,
-.sidebar-services-category li:hover a::after {
+.sidebar-device-models li.active a:after,
+.sidebar-device-models li:hover a::after {
   color: #ffffff;
 }
-.sidebar-services-category li.active a,
-.sidebar-services-category li a:hover {
+.sidebar-device-models li.active a,
+.sidebar-device-models li a:hover {
   color: #ffffff;
 }
 
@@ -1875,7 +1875,7 @@ a.slider-one__text {
 }
 /* Brochure Box */
 
-.brochure-box {
+.brand-opt {
   position: relative;
   margin-bottom: 4px;
   border-radius: 0px;
@@ -1887,12 +1887,12 @@ a.slider-one__text {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.brochure-box .inner {
+.brand-opt .inner {
   position: relative;
   padding-left: 60px;
   padding-right: 60px;
 }
-.brochure-box .inner .download {
+.brand-opt .inner .download {
   position: absolute;
   right: 10px;
   top: 5px;
@@ -1906,11 +1906,11 @@ a.slider-one__text {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.brochure-box:hover .inner .download {
+.brand-opt:hover .inner .download {
   color: #ffffff;
   opacity: 9;
 }
-.brochure-box .overlay-link {
+.brand-opt .overlay-link {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1918,7 +1918,7 @@ a.slider-one__text {
   height: 100%;
   display: block;
 }
-.brochure-box .inner .icon {
+.brand-opt .inner .icon {
   position: absolute;
   left: 0px;
   /* top: 4px; */
@@ -1933,7 +1933,7 @@ a.slider-one__text {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.brochure-box .inner .text {
+.brand-opt .inner .text {
   position: relative;
   font-size: 16px;
   font-weight: 600;
@@ -1944,11 +1944,11 @@ a.slider-one__text {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.brochure-box:hover {
+.brand-opt:hover {
   background-color: #cf5c1d;
 }
-.brochure-box:hover .icon,
-.brochure-box:hover .text {
+.brand-opt:hover .icon,
+.brand-opt:hover .text {
   color: #ffffff;
 }
 
