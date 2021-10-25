@@ -88,8 +88,10 @@
           <div class="main-navigation">
             <ul class="navigation-box @@extra_class">
               <li><a href="index.html">Home</a></li>
-              <li><a href="buyWarranty.html">Buy Warranty</a></li>
-              <li class="current"><a href="fixDevice.html">Fix a Device</a></li>
+              <li class="current">
+                <a href="buyWarranty.html">Buy Warranty</a>
+              </li>
+              <li><a href="fixDevice.html">Fix a Device</a></li>
               <li><a href="about-us.html">About</a></li>
               <li><a href="contact-us.html">Contact Us</a></li>
               <li><a href="#">Sign In</a></li>
@@ -111,10 +113,10 @@
       </nav>
     </header>
 
-    <!--Have Warrenty Modal-->
+    <!--Warrenty Device Type Modal-->
     <div
       class="modal fade"
-      id="haveWarrantyModal"
+      id="getWarrantyModal"
       data-backdrop="static"
       data-keyboard="false"
     >
@@ -159,7 +161,7 @@
         </div>
       </div>
     </div>
-    <!--Have Warrenty Modal End-->
+    <!--Warrenty Device Type Modal End-->
 
     <!--Services PopUp-->
     <section class="services-sec service-area-two mfp-hide" id="selectDevice">
@@ -244,20 +246,23 @@
         </div> -->
       </div>
     </section>
-    <!--Services PopUp end-->
+    <!--Services PopUp End-->
 
     <!--Page Title-->
-    <section class="page-title" style="background-image: url(images/fix-2.jpg)">
+    <section
+      class="page-title"
+      style="background-image: url(images/device-warrenty-5.jpg)"
+    >
       <div class="container">
         <div class="clearfix">
           <div class="float-left">
             <div class="title">Welcome to RepairIT</div>
-            <h2>Fix a Device</h2>
+            <h2>Buy Warranty</h2>
           </div>
           <div class="float-right">
             <ul class="page-breadcrumb">
               <li><a href="index.html">Home</a></li>
-              <li>Fix a Device</li>
+              <li>Buy Warranty</li>
             </ul>
           </div>
         </div>
@@ -265,68 +270,15 @@
     </section>
     <!--End Page Title-->
 
-    <!-- Device Options Sec Start -->
-    <section class="device-options-sec inner-wrapper">
-      <div class="device-issue-container px-5">
+    <!-- Buy Warrenty Main Sec Start -->
+    <section class="buy-warrenty-sec inner-wrapper">
+      <div class="buy-warrenty-container px-5">
         <div class="row clearfix">
           <!--Sidebar Side-->
-          <div class="sidebar-side col-lg-3 col-md-12 col-sm-12">
+          <div class="warranty-form-col col-xl-5 col-lg-5 col-md-5 col-sm-12">
             <aside class="sidebar">
               <div class="sidebar-inner">
-                <!--Device Brand -->
-                <div class="sidebar-widget brand-widget">
-                  <p class="widget-title">Select Device Brand</p>
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">Samsung</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">Apple</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">Sony</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">Huawei</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">Xiaomi</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">Lenovo</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-
-                  <div class="brand-opt">
-                    <div class="inner">
-                      <div class="text">LG</div>
-                    </div>
-                    <a href="#" class="overlay-link"></a>
-                  </div>
-                </div>
-
-                <!-- Device Model -->
+                <!-- Buy Warranty Form -->
                 <div class="sidebar-widget sidebar-device-models">
                   <p class="widget-title">Select Device Model</p>
                   <div class="widget-content">
@@ -359,247 +311,38 @@
             </aside>
           </div>
           <!--Issues section-->
-          <div class="content-side col-lg-5 col-md-12 col-sm-12">
-            <p
-              class="widget-title mb-0 text-center"
-              style="font-size: 2rem; line-height: 2.2rem"
-            >
-              Select the Issue
-            </p>
+          <div class="warrant-device-col col-xl-7 col-lg-7 col-md-7 col-sm-12">
             <div class="containr-fluid">
-              <div class="row">
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/broken-display.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Broken Display</a
-                    >
-                  </div>
+              <!-- <div class="row justify-content-center align-items-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                
                 </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/audio.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Audio Isuue</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/mobile-charging.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Charging Issue</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/power-button.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Power Button</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/mobile-camera.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Camera Issue</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/touch-sensor.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Touch Sensor</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/headphone-symbol.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Headphone Issue</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/fingerprint.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Fingerprint Sensor</a
-                    >
-                  </div>
-                </div>
-
-                <!-- Single card -->
-                <div class="col-lg-4 col-md-6 col-sm-6 my-3">
-                  <div class="card issue-card px-0">
-                    <div class="card-body text-center py-3 px-2">
-                      <img
-                        class="issue-icon"
-                        src="images/services-icon/black-icons/mobile-signal.png"
-                        alt="Card image cap"
-                      />
-                    </div>
-                    <a href="http://" target="_blank" class="isuue-btn"
-                      >Network Issue</a
-                    >
-                  </div>
+              </div> -->
+              <div class="warranty-selected-device text-center">
+                <p class="warranty-selected-text mt-2 mb-4 text-center">
+                  Get the Best Device Insurance Plans
+                </p>
+                <img
+                  class="img-fluid"
+                  src="images/devices/pc.png"
+                  alt="Selected Device"
+                />
+                <div class="mt-3">
+                  <a
+                    href="#selectDevice"
+                    class="default-btn"
+                    data-effect="mfp-move-horizontal"
+                  >
+                    Change Device <span> &#10607;</span>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="sidebar-cart col-lg-4 col-md-12 col-sm-12">
-            <aside class="sticky-cart">
-              <p class="cart-title mb-2">Service Cart</p>
-              <div class="cart-inner">
-                <!-- Cart Widget -->
-                <form class="cart-form">
-                  <div class="form-group mb-2">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="deviceType"
-                      aria-describedby="emailHelp"
-                      placeholder="Device Type"
-                      readonly="readonly"
-                    />
-                    <small id="emailHelp" class="form-text error-text"
-                      >Please Select Device Type.</small
-                    >
-                  </div>
-
-                  <div class="form-group mb-2">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="deviceBrand"
-                      aria-describedby="emailHelp"
-                      placeholder="Device Brand"
-                      readonly="readonly"
-                    />
-                    <small id="emailHelp" class="form-text error-text"
-                      >Please Select Device Brand.</small
-                    >
-                  </div>
-
-                  <div class="form-group mb-2">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="deviceModel"
-                      aria-describedby="emailHelp"
-                      placeholder="Device Model"
-                      readonly="readonly"
-                    />
-                    <small id="emailHelp" class="form-text error-text"
-                      >Please Select Device Model.</small
-                    >
-                  </div>
-
-                  <div class="form-group mb-2">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="deviceIssue"
-                      aria-describedby="emailHelp"
-                      placeholder="Device Issue"
-                      readonly="readonly"
-                    />
-                    <small id="emailHelp" class="form-text error-text"
-                      >Please Select Device Issue.</small
-                    >
-                  </div>
-                  <div class="form-group">
-                    <textarea
-                      class="form-control"
-                      placeholder="Message"
-                      rows="4"
-                      required
-                    ></textarea>
-                  </div>
-                  <a
-                    href="success.html"
-                    type="submit"
-                    class="issue-submit-btn"
-                    onClick
-                  >
-                    Submit
-                  </a>
-                </form>
-              </div>
-            </aside>
-          </div>
         </div>
       </div>
     </section>
-    <!-- Device Options Sec End-->
+    <!-- Buy Warrenty Main Sec End -->
 
     <!-- Testimonials Section -->
     <section class="testimonial-section">
