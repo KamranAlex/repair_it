@@ -2033,7 +2033,7 @@ Have Warranty Modal
   padding-bottom: 0;
 }
 
-.section-title .head-two {
+.section-title .modal-head-two {
   font-size: 38px;
   font-weight: 600;
   color: #121619;
@@ -2311,7 +2311,7 @@ Buy Warranty Modal
   padding-bottom: 0;
 }
 
-.section-title .head-two {
+.section-title .modal-head-two {
   font-size: 38px;
   font-weight: 600;
   color: #121619;
@@ -2402,7 +2402,7 @@ Buy Warranty Modal
   font-size: 22px;
   font-weight: 600;
   font-family: 'Titillium Web', sans-serif;
-  padding: 11px 80px;
+  padding: 11px 72px;
   transition: 0.2s ease;
   margin-top: 18px;
 }
@@ -4647,6 +4647,15 @@ a.video-play-icon-without-bip:hover {
     font-size: 1.5rem;
     line-height: 1.5rem;
   }
+  .section-title .modal-head-two {
+    font-size: 28px;
+  }
+  .modal-buyWarranty .buyWarranty-modal-form .warranty-modal-select select {
+    font-size: 14px;
+  }
+  .modal-buyWarranty .buyWarranty-modal-form button {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -4685,5 +4694,14 @@ a.video-play-icon-without-bip:hover {
   .sidebar-warranty-form .form-widget .form-head .form-title {
     font-size: 1.5rem;
     line-height: 1.5rem;
+  }
+  .section-title .modal-head-two {
+    font-size: 28px;
+  }
+  .modal-buyWarranty .buyWarranty-modal-form .warranty-modal-select select {
+    font-size: 14px;
+  }
+  .modal-buyWarranty .buyWarranty-modal-form button {
+    font-size: 16px;
   }
 }
