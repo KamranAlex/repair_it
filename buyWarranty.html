@@ -1,788 +1,699 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RepairIT</title>
-    <!-- Plugins CSS -->
-    <link href="css/plugins.css" rel="stylesheet" />
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="images/fav-repair.png"
-    />
-  </head>
 
-  <body>
-    <!-- Pre Loader -->
-    <div id="dvLoading"></div>
-    <!-- Top Bar -->
-    <div class="search-popup">
-      <div class="search-popup__overlay custom-cursor__overlay">
-        <div class="cursor"></div>
-        <div class="cursor-follower"></div>
-      </div>
-      <!-- /.search-popup__overlay -->
-      <div class="search-popup__inner">
-        <form action="#" class="search-popup__form">
-          <input
-            type="text"
-            name="search"
-            placeholder="Type here to Search...."
-          />
-          <button type="submit"><i class="fas fa-search"></i></button>
-        </form>
-      </div>
-      <!-- /.search-popup__inner -->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RepairIT</title>
+  <!-- Plugins CSS -->
+  <link href="css/plugins.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/fav-repair.png" />
+</head>
+
+<body>
+  <!-- Pre Loader -->
+  <div id="dvLoading"></div>
+  <!-- Top Bar -->
+  <div class="search-popup">
+    <div class="search-popup__overlay custom-cursor__overlay">
+      <div class="cursor"></div>
+      <div class="cursor-follower"></div>
     </div>
-    <div class="topbar-one">
-      <div class="container">
-        <div class="topbar-one__left">
-          <div class="topbar-one__social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fas fa-rss"></i></a>
-            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#"><i class="fab fa-vimeo-v"></i></a>
-          </div>
-        </div>
-        <div class="topbar-one__right">
-          <div class="topbar-one__links">
-            <a href="#" class="topbar-one__search search-popup__toggler"
-              ><i class="fas fa-search"></i> </a
-            ><a href="#" class="topbar-one__link"
-              ><i class="far fa-clock"></i>Mon - Fri: 9.30 - 18.30</a
-            ><a href="#" class="topbar-one__link"
-              ><i class="far fa-envelope"></i>info@test.com
-            </a>
-          </div>
+    <!-- /.search-popup__overlay -->
+    <div class="search-popup__inner">
+      <form action="#" class="search-popup__form">
+        <input type="text" name="search" placeholder="Type here to Search...." />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    <!-- /.search-popup__inner -->
+  </div>
+  <div class="topbar-one">
+    <div class="container">
+      <div class="topbar-one__left">
+        <div class="topbar-one__social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fas fa-rss"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
         </div>
       </div>
+      <div class="topbar-one__right">
+        <div class="topbar-one__links">
+          <a href="#" class="topbar-one__search search-popup__toggler"><i class="fas fa-search"></i> </a><a href="#"
+            class="topbar-one__link"><i class="far fa-clock"></i>Mon - Fri: 9.30 - 18.30</a><a href="#"
+            class="topbar-one__link"><i class="far fa-envelope"></i>info@test.com
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- Site Header Menu -->
-    <header class="site-header site-header__header-one site-header__home-one">
-      <nav
-        class="navbar navbar-expand-lg navbar-light header-navigation stricky"
-      >
-        <div class="container clearfix">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="logo-box">
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="images/logo-main.png"
-                width="185"
-                class="main-logo"
-                alt="Awesome Image"
-              />
-            </a>
-            <button class="menu-toggler" data-target=".main-navigation">
-              <span class="fa fa-bars"></span>
+  </div>
+  <!-- Site Header Menu -->
+  <header class="site-header site-header__header-one site-header__home-one">
+    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+      <div class="container clearfix">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="logo-box">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo-main.png" width="185" class="main-logo" alt="Awesome Image" />
+          </a>
+          <button class="menu-toggler" data-target=".main-navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+        </div>
+        <!-- /.logo-box -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="main-navigation">
+          <ul class="navigation-box @@extra_class">
+            <li><a href="index.html">Home</a></li>
+            <li class="current">
+              <a href="buyWarranty.html">Buy Warranty</a>
+            </li>
+            <li><a href="fixDevice.html">Fix a Device</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="right-side-box">
+          <a href="#selectDevice" class="default-btn open-popup-link" data-effect="mfp-move-horizontal">Get A Quote <i
+              class="fas fa-long-arrow-alt-right"></i>
+          </a>
+          <!-- /.thm-btn -->
+        </div>
+        <!-- /.right-side-box -->
+      </div>
+      <!-- /.container -->
+    </nav>
+  </header>
+
+  <!--Warrenty Device Type Modal-->
+  <div class="modal fade" id="buyWarrantyModal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-buyWarranty modal-dialog-centered px-5">
+      <div class="modal-content border-0">
+        <div class="container">
+          <div class="section-title">
+            <h2 class="text-center head-two modal-buyWarranty-title">
+              Buy the best insurance plan for your device.
+            </h2>
+          </div>
+          <div class="buyWarranty-modal-form">
+            <div class="warranty-modal-select mt-5">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option value="placeholder" disabled selected>Please Select a type to continue...</option>
+                <option>Apple Phone Insurance</option>
+                <option>Apple Laptop Insurance</option>
+                <option>Samsung Smartphone Insurance</option>
+                <option>Android Tablet Insurance</option>
+                <option>Apple iPad Insurance</option>
+                <option>Desktop PC Insurance</option>
+                <option>Laptop PC Insurance</option>
+                <option>Gaming PC Insurance</option>
+                <option>Camera Insurance</option>
+                <option>Mp3 & Aduio Insurance</option>
+                <option>Television Insurance</option>
+                <option>Home Appliances</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn w-60" data-dismiss="modal">
+              Continue
             </button>
-          </div>
-          <!-- /.logo-box -->
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="main-navigation">
-            <ul class="navigation-box @@extra_class">
-              <li><a href="index.html">Home</a></li>
-              <li class="current">
-                <a href="buyWarranty.html">Buy Warranty</a>
-              </li>
-              <li><a href="fixDevice.html">Fix a Device</a></li>
-              <li><a href="about-us.html">About</a></li>
-              <li><a href="contact-us.html">Contact Us</a></li>
-              <li><a href="#">Sign In</a></li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-          <div class="right-side-box">
-            <a
-              href="#selectDevice"
-              class="default-btn open-popup-link"
-              data-effect="mfp-move-horizontal"
-              >Get A Quote <i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-            <!-- /.thm-btn -->
-          </div>
-          <!-- /.right-side-box -->
-        </div>
-        <!-- /.container -->
-      </nav>
-    </header>
 
-    <!--Warrenty Device Type Modal-->
-    <div
-      class="modal fade"
-      id="getWarrantyModal"
-      data-backdrop="static"
-      data-keyboard="false"
-    >
-      <div class="modal-dialog modal-haveWarranty modal-dialog-centered px-5">
-        <div class="modal-content border-0">
-          <div class="container">
-            <div class="section-title">
-              <h2 class="text-center head-two warrantyModal-title">
-                Do you have warranty for your device ?
-              </h2>
-            </div>
-            <div class="card-deck">
-              <div
-                class="card warrantyModal-card text-center"
-                style="border: 1px solid #ffbdca"
-              >
-                <div class="card-body text-center">
-                  <img src="images/warranty-void.png" alt="warranty-active" />
-                  <div class="mt-3">
-                    <button class="btn-voidWarranty" data-dismiss="modal">
-                      No
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="card warrantyModal-card"
-                style="border: 1px solid #b7e1be"
-              >
-                <div class="card-body text-center">
-                  <img src="images/warranty-active.png" alt="warranty-void" />
-                  <div class="mt-3">
-                    <button class="btn-activeWarranty" data-dismiss="modal">
-                      Yes
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
-    <!--Warrenty Device Type Modal End-->
+  </div>
+  <!--Warrenty Device Type Modal End-->
 
-    <!--Services PopUp-->
-    <section class="services-sec service-area-two mfp-hide" id="selectDevice">
-      <div class="container">
-        <div class="section-title">
-          <span>Reliable repair for the device you depend on most</span>
-          <h2>Select your device to get started</h2>
-        </div>
-        <div class="row mb-4">
-          <!-- Single Services Start -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-card">
-              <div class="service-content-wrap">
-                <img src="images/devices/phone.png" alt="" />
+  <!--Services PopUp-->
+  <section class="services-sec service-area-two mfp-hide" id="selectDevice">
+    <div class="container">
+      <div class="section-title">
+        <span>Reliable repair for the device you depend on most</span>
+        <h2>Select your device to get started</h2>
+      </div>
+      <div class="row mb-4">
+        <!-- Single Services Start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="service-card">
+            <div class="service-content-wrap">
+              <img src="images/devices/phone.png" alt="" />
+              <h3>Cell Phone</h3>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="fixDevice.html">
                 <h3>Cell Phone</h3>
-              </div>
-              <div class="service-heading">
-                <a class="circle-read-more" href="fixDevice.html">
-                  <h3>Cell Phone</h3>
-                  <i class="ti ti-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Single Services Start -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-card">
-              <div class="service-content-wrap">
-                <img src="images/devices/tablet.png" alt="" />
-                <h3>Tablet</h3>
-              </div>
-              <div class="service-heading">
-                <a class="circle-read-more" href="fixDevice.html">
-                  <h3>Tablet</h3>
-                  <i class="ti ti-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Single Services Start -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-card">
-              <div class="service-content-wrap">
-                <img
-                  src="images/devices/pc.png"
-                  alt=""
-                  style="max-width: 180px"
-                />
-                <h3>Computer</h3>
-              </div>
-              <div class="service-heading">
-                <a class="circle-read-more" href="fixDevice.html">
-                  <h3>Computer</h3>
-                  <i class="ti ti-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Single Services Start -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-card">
-              <div class="service-content-wrap">
-                <img src="images/devices/game-console.png" alt="" />
-                <h3>Game Console</h3>
-              </div>
-              <div class="service-heading">
-                <a class="circle-read-more" href="fixDevice.html">
-                  <h3>Game Console</h3>
-                  <i class="ti ti-angle-right"></i>
-                </a>
-              </div>
+                <i class="ti ti-angle-right"></i>
+              </a>
             </div>
           </div>
         </div>
-        <!-- <div class="services-footer text-center">
+
+        <!-- Single Services Start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="service-card">
+            <div class="service-content-wrap">
+              <img src="images/devices/tablet.png" alt="" />
+              <h3>Tablet</h3>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="fixDevice.html">
+                <h3>Tablet</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Services Start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="service-card">
+            <div class="service-content-wrap">
+              <img src="images/devices/pc.png" alt="" style="max-width: 180px" />
+              <h3>Computer</h3>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="fixDevice.html">
+                <h3>Computer</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Services Start -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="service-card">
+            <div class="service-content-wrap">
+              <img src="images/devices/game-console.png" alt="" />
+              <h3>Game Console</h3>
+            </div>
+            <div class="service-heading">
+              <a class="circle-read-more" href="fixDevice.html">
+                <h3>Game Console</h3>
+                <i class="ti ti-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="services-footer text-center">
           <a href="#" class="default-btn"
             >Explore More <i class="fas fa-long-arrow-alt-right"></i>
           </a>
         </div> -->
-      </div>
-    </section>
-    <!--Services PopUp End-->
+    </div>
+  </section>
+  <!--Services PopUp End-->
 
-    <!--Page Title-->
-    <section
-      class="page-title"
-      style="background-image: url(images/device-warrenty-5.jpg)"
-    >
-      <div class="container">
-        <div class="clearfix">
-          <div class="float-left">
-            <div class="title">Welcome to RepairIT</div>
-            <h2>Buy Warranty</h2>
-          </div>
-          <div class="float-right">
-            <ul class="page-breadcrumb">
-              <li><a href="index.html">Home</a></li>
-              <li>Buy Warranty</li>
-            </ul>
-          </div>
+  <!--Page Title-->
+  <section class="page-title" style="background-image: url(images/device-warrenty-5.jpg)">
+    <div class="container">
+      <div class="clearfix">
+        <div class="float-left">
+          <div class="title">Welcome to RepairIT</div>
+          <h2>Buy Warranty</h2>
+        </div>
+        <div class="float-right">
+          <ul class="page-breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Buy Warranty</li>
+          </ul>
         </div>
       </div>
-    </section>
-    <!--End Page Title-->
+    </div>
+  </section>
+  <!--End Page Title-->
 
-    <!-- Buy Warrenty Main Sec Start -->
-    <section class="buy-warrenty-sec inner-wrapper">
-      <div class="buy-warrenty-container px-5">
-        <div class="row clearfix">
-          <!--Warranty Device Side-->
-          <div class="warrant-device-col col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <div class="containr-fluid">
-              <div class="warranty-selected-device text-center">
-                <p class="warranty-selected-text mb-4 text-center">
-                  Get the Best Device Insurance Plans
-                </p>
-                <img
-                  class="img-fluid"
-                  src="images/devices/pc.png"
-                  alt="Selected Device"
-                />
-                <div class="mt-3">
-                  <a
-                    href="#selectDevice"
-                    class="default-btn"
-                    data-effect="mfp-move-horizontal"
-                  >
-                    Change Device <span> &#10607;</span>
-                  </a>
-                </div>
+  <!-- Buy Warrenty Main Sec Start -->
+  <section class="buy-warrenty-sec inner-wrapper">
+    <div class="buy-warrenty-container px-5">
+      <div class="row clearfix">
+        <!--Warranty Device Side-->
+        <div class="warrant-device-col col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div class="containr-fluid">
+            <div class="warranty-selected-device text-center">
+              <p class="warranty-selected-text text-center">
+                Get the Best Device Insurance Plans
+              </p>
+              <img class="img-fluid" src="images/devices/pc.png" alt="Selected Device" />
+              <div class="mt-3">
+                <a href="#selectDevice" class="default-btn" data-effect="mfp-move-horizontal" data-toggle="modal" data-target="#buyWarrantyModal">
+                  Change Device <span> &#10607;</span>
+                </a>
               </div>
             </div>
           </div>
+        </div>
 
-          <!--Warranty Form Side-->
-          <div class="warranty-form-col col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <aside class="sidebar">
-              <div class="sidebar-inner">
-                <!-- Buy Warranty Form -->
-                <div class="sidebar-widget sidebar-warranty-form">
-                  <div class="form-widget">
-                      <div class="form-head"> 
-                         <p class="form-title text-center my-0">
-                        Device Insurance & Warranty Plans for Individuals, Families & Businesses
-                      </p>
-                        </div>
-                    <form>
-                      <!-- Input Field 1 -->
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1"
-                          >Product Purchase Price <sup>*</sup></label
-                        >
-                    <div class="warranty-select">
-                          <select
-                          class="form-control"
-                          id="exampleFormControlSelect1"
-                        ><option value="placeholder" disabled selected>Select Purchase Price</option>
+        <!--Warranty Form Side-->
+        <div class="warranty-form-col col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <aside class="sidebar">
+            <div class="sidebar-inner">
+              <!-- Buy Warranty Form -->
+              <div class="sidebar-widget sidebar-warranty-form">
+                <div class="form-widget">
+                  <div class="form-head">
+                    <p class="form-title text-center my-0">
+                      Device Insurance & Warranty Plans for Individuals, Families & Businesses
+                    </p>
+                  </div>
+                  <form>
+                    <!-- Input Field 1 -->
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Product Purchase Price <sup>*</sup></label>
+                      <div class="warranty-select">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="placeholder" disabled selected>Select Purchase Price</option>
                           <option>$1 - $100</option>
                           <option>$101 - $200</option>
                           <option>$201 - $300</option>
                           <option>$301 - $500</option>
                           <option>$500 - $1000</option>
                         </select>
-                    </div>
                       </div>
+                    </div>
 
-                      <!-- Input Field 2 -->
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1"
-                          >Product Condition <sup>*</sup></label
-                        >
-                    <div class="warranty-select">
-                          <select
-                          class="form-control"
-                          id="exampleFormControlSelect1"
-                        >
-                        <option value="placeholder" disabled selected>Select Product Condition</option>
+                    <!-- Input Field 2 -->
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Product Condition <sup>*</sup></label>
+                      <div class="warranty-select">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="placeholder" disabled selected>Select Product Condition</option>
                           <option>Brand New</option>
                           <option>Open Box</option>
                           <option>Refubrished</option>
                           <option>Used</option>
                         </select>
-                    </div>
                       </div>
+                    </div>
 
-                      <!-- Input Field 3 -->
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1"
-                          >Choose Insurance Plan <sup>*</sup></label
-                        >
-                    <div class="warranty-select">
-                          <select
-                          class="form-control"
-                          id="exampleFormControlSelect1"
-                        >
-                        <option value="placeholder" disabled selected>Select Product Condition</option>
+                    <!-- Input Field 3 -->
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Choose Insurance Plan <sup>*</sup></label>
+                      <div class="warranty-select">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="placeholder" disabled selected>Select Insurance Plan</option>
                           <option>Extended Warranty</option>
-                           <option>Accidental damage</option>
+                          <option>Accidental damage</option>
                           <option>Ext. Warranty + Accidental damage</option>
                         </select>
-                    </div>
                       </div>
-                   
+                    </div>
 
-                      <!-- Input Fields Inline -->
-                      <div class="form-row">
-                        <div class="col-md-4 col-sm-12">
-                          <label for="exampleFormControlSelect1"
-                            >Payment Options <sup>*</sup></label
-                          >
-                          <div class="warranty-select">
-                          <select
-                          class="form-control"
-                          id="exampleFormControlSelect1"
-                        >
-                          <option>Pay Weekly</option>
-                          <option>Pay Monthly</option>
-                          <option>Pay Once</option>
-                        </select>
-                        </div>
-                        </div>
 
-                        <div class="col-md-4 col-sm-12">
-                          <label for="exampleFormControlSelect1"
-                            >Select Term  <sup>*</sup></label
-                          >
-                          <div class="warranty-select">
-                          <select
-                          class="form-control"
-                          id="exampleFormControlSelect1"
-                        >
-                          <option>1 year</option>
-                          <option>2 year</option>
-                          <option>3 year</option>
-                        </select>
-                        </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-12">
-                          <label for="exampleFormControlSelect1"
-                            >Quantity <sup>*</sup></label
-                          >
+                    <!-- Input Fields Inline -->
+                    <div class="form-row">
+                      <div class="col-md-4 col-sm-12">
+                        <label for="exampleFormControlSelect1">Payment Options <sup>*</sup></label>
                         <div class="warranty-select">
-                          <select
-                          class="form-control"
-                          id="exampleFormControlSelect1"
-                        >
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="placeholder" disabled selected>Select Payment Options</option>
+                            <option>Pay Weekly</option>
+                            <option>Pay Monthly</option>
+                            <option>Pay Once</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4 col-sm-12">
+                        <label for="exampleFormControlSelect1">Term <sup>*</sup></label>
+                        <div class="warranty-select">
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="placeholder" disabled selected>Select Term</option>
+                            <option>1 year</option>
+                            <option>2 year</option>
+                            <option>3 year</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4 col-sm-12">
+                        <label for="exampleFormControlSelect1">Quantity <sup>*</sup></label>
+                        <div class="warranty-select">
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="placeholder" disabled selected>Select Quantity</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
                         </div>
                       </div>
 
                       <!-- Submit button -->
 
-                      <button
-                        type="submit"
-                        class="btn btn-block mt-4"
-                      >
+                      <button type="submit" class="btn btn-block mt-4">
                         Proceed to Checkout
                       </button>
-                    </form>
-                  </div>
+                  </form>
                 </div>
               </div>
-            </aside>
-          </div>
-
-
+            </div>
+          </aside>
         </div>
+
+
       </div>
-    </section>
-    <!-- Buy Warrenty Main Sec End -->
+    </div>
+  </section>
+  <!-- Buy Warrenty Main Sec End -->
 
-    <!-- Testimonials Section -->
-    <section class="testimonial-section">
-      <div
-        class="patern-layer"
-        style="background-image: url(images/pattern-bg.png)"
-      ></div>
-      <div class="container">
-        <!-- Sec Title -->
-        <div class="section-title">
-          <span>Testimonial</span>
-          <h2>What Customers Says</h2>
-        </div>
+  <!-- Testimonials Section -->
+  <section class="testimonial-section">
+    <div class="patern-layer" style="background-image: url(images/pattern-bg.png)"></div>
+    <div class="container">
+      <!-- Sec Title -->
+      <div class="section-title">
+        <span>Testimonial</span>
+        <h2>What Customers Says</h2>
+      </div>
+      <!-- Product Thumbs Carousel -->
+      <div class="testimonial-outer">
         <!-- Product Thumbs Carousel -->
-        <div class="testimonial-outer">
-          <!-- Product Thumbs Carousel -->
-          <div class="client-thumb-outer">
-            <div class="client-thumbs-carousel owl-carousel owl-theme">
-              <div class="thumb-item">
-                <figure class="thumb-box">
-                  <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
-                </figure>
-                <div class="author-info">
-                  <div class="author-name">JAMES HANSON</div>
-                  <div class="designation">Engineering Officer</div>
-                </div>
+        <div class="client-thumb-outer">
+          <div class="client-thumbs-carousel owl-carousel owl-theme">
+            <div class="thumb-item">
+              <figure class="thumb-box">
+                <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
+              </figure>
+              <div class="author-info">
+                <div class="author-name">JAMES HANSON</div>
+                <div class="designation">Engineering Officer</div>
               </div>
-              <div class="thumb-item">
-                <figure class="thumb-box">
-                  <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
-                </figure>
-                <div class="author-info">
-                  <div class="author-name">ROBERT PATTINSON</div>
-                  <div class="designation">Engineering Officer</div>
-                </div>
+            </div>
+            <div class="thumb-item">
+              <figure class="thumb-box">
+                <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
+              </figure>
+              <div class="author-info">
+                <div class="author-name">ROBERT PATTINSON</div>
+                <div class="designation">Engineering Officer</div>
               </div>
-              <div class="thumb-item">
-                <figure class="thumb-box">
-                  <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
-                </figure>
-                <div class="author-info">
-                  <div class="author-name">CROWNA BATTION</div>
-                  <div class="designation">Marketing manager</div>
-                </div>
+            </div>
+            <div class="thumb-item">
+              <figure class="thumb-box">
+                <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
+              </figure>
+              <div class="author-info">
+                <div class="author-name">CROWNA BATTION</div>
+                <div class="designation">Marketing manager</div>
               </div>
-              <div class="thumb-item">
-                <figure class="thumb-box">
-                  <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
-                </figure>
-                <div class="author-info">
-                  <div class="author-name">JAMES HANSON</div>
-                  <div class="designation">Engineering Officer</div>
-                </div>
+            </div>
+            <div class="thumb-item">
+              <figure class="thumb-box">
+                <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
+              </figure>
+              <div class="author-info">
+                <div class="author-name">JAMES HANSON</div>
+                <div class="designation">Engineering Officer</div>
               </div>
-              <div class="thumb-item">
-                <figure class="thumb-box">
-                  <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
-                </figure>
-                <div class="author-info">
-                  <div class="author-name">ROBERT PATTINSON</div>
-                  <div class="designation">Engineering Officer</div>
-                </div>
+            </div>
+            <div class="thumb-item">
+              <figure class="thumb-box">
+                <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
+              </figure>
+              <div class="author-info">
+                <div class="author-name">ROBERT PATTINSON</div>
+                <div class="designation">Engineering Officer</div>
               </div>
-              <div class="thumb-item">
-                <figure class="thumb-box">
-                  <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
-                </figure>
-                <div class="author-info">
-                  <div class="author-name">CROWNA BATTION</div>
-                  <div class="designation">Marketing manager</div>
-                </div>
+            </div>
+            <div class="thumb-item">
+              <figure class="thumb-box">
+                <img src="http://via.placeholder.com/90x90/999/fff" alt="" />
+              </figure>
+              <div class="author-info">
+                <div class="author-name">CROWNA BATTION</div>
+                <div class="designation">Marketing manager</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Client Testimonial Carousel -->
+        <div class="client-testimonial-carousel owl-carousel owl-theme">
+          <!--Testimonial Block -->
+          <div class="testimonial-block">
+            <div class="inner-box">
+              <div class="text">
+                I greatly appreciate working with the professional and
+                dedicated <br />
+                teams at Facmaster. I feel that they strongly recognize the
+                opportunities to partner together for <br />
+                mutually successful business.
+              </div>
+              <div class="quote-outer">
+                <div class="quote-icon fas fa-quote-left"></div>
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
           </div>
 
-          <!-- Client Testimonial Carousel -->
-          <div class="client-testimonial-carousel owl-carousel owl-theme">
-            <!--Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="text">
-                  I greatly appreciate working with the professional and
-                  dedicated <br />
-                  teams at Facmaster. I feel that they strongly recognize the
-                  opportunities to partner together for <br />
-                  mutually successful business.
-                </div>
-                <div class="quote-outer">
-                  <div class="quote-icon fas fa-quote-left"></div>
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
+          <!--Testimonial Block -->
+          <div class="testimonial-block">
+            <div class="inner-box">
+              <div class="text">
+                I greatly appreciate working with the professional and
+                dedicated <br />
+                teams at Facmaster. I feel that they strongly recognize the
+                opportunities to partner together for <br />
+                mutually successful business.
+              </div>
+              <div class="quote-outer">
+                <div class="quote-icon fas fa-quote-left"></div>
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
+          </div>
 
-            <!--Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="text">
-                  I greatly appreciate working with the professional and
-                  dedicated <br />
-                  teams at Facmaster. I feel that they strongly recognize the
-                  opportunities to partner together for <br />
-                  mutually successful business.
-                </div>
-                <div class="quote-outer">
-                  <div class="quote-icon fas fa-quote-left"></div>
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
+          <!--Testimonial Block -->
+          <div class="testimonial-block">
+            <div class="inner-box">
+              <div class="text">
+                I greatly appreciate working with the professional and
+                dedicated <br />
+                teams at Facmaster. I feel that they strongly recognize the
+                opportunities to partner together for <br />
+                mutually successful business.
+              </div>
+              <div class="quote-outer">
+                <div class="quote-icon fas fa-quote-left"></div>
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
+          </div>
 
-            <!--Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="text">
-                  I greatly appreciate working with the professional and
-                  dedicated <br />
-                  teams at Facmaster. I feel that they strongly recognize the
-                  opportunities to partner together for <br />
-                  mutually successful business.
-                </div>
-                <div class="quote-outer">
-                  <div class="quote-icon fas fa-quote-left"></div>
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
+          <!--Testimonial Block -->
+          <div class="testimonial-block">
+            <div class="inner-box">
+              <div class="text">
+                I greatly appreciate working with the professional and
+                dedicated <br />
+                teams at Facmaster. I feel that they strongly recognize the
+                opportunities to partner together for <br />
+                mutually successful business.
+              </div>
+              <div class="quote-outer">
+                <div class="quote-icon fas fa-quote-left"></div>
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
+          </div>
 
-            <!--Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="text">
-                  I greatly appreciate working with the professional and
-                  dedicated <br />
-                  teams at Facmaster. I feel that they strongly recognize the
-                  opportunities to partner together for <br />
-                  mutually successful business.
-                </div>
-                <div class="quote-outer">
-                  <div class="quote-icon fas fa-quote-left"></div>
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
+          <!--Testimonial Block -->
+          <div class="testimonial-block">
+            <div class="inner-box">
+              <div class="text">
+                I greatly appreciate working with the professional and
+                dedicated <br />
+                teams at Facmaster. I feel that they strongly recognize the
+                opportunities to partner together for <br />
+                mutually successful business.
+              </div>
+              <div class="quote-outer">
+                <div class="quote-icon fas fa-quote-left"></div>
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
+          </div>
 
-            <!--Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="text">
-                  I greatly appreciate working with the professional and
-                  dedicated <br />
-                  teams at Facmaster. I feel that they strongly recognize the
-                  opportunities to partner together for <br />
-                  mutually successful business.
-                </div>
-                <div class="quote-outer">
-                  <div class="quote-icon fas fa-quote-left"></div>
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
+          <!--Testimonial Block -->
+          <div class="testimonial-block">
+            <div class="inner-box">
+              <div class="text">
+                I greatly appreciate working with the professional and
+                dedicated <br />
+                teams at Facmaster. I feel that they strongly recognize the
+                opportunities to partner together for <br />
+                mutually successful business.
               </div>
-            </div>
-
-            <!--Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="text">
-                  I greatly appreciate working with the professional and
-                  dedicated <br />
-                  teams at Facmaster. I feel that they strongly recognize the
-                  opportunities to partner together for <br />
-                  mutually successful business.
-                </div>
-                <div class="quote-outer">
-                  <div class="quote-icon fas fa-quote-left"></div>
-                </div>
-                <div class="rating">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                </div>
+              <div class="quote-outer">
+                <div class="quote-icon fas fa-quote-left"></div>
+              </div>
+              <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Main Footer -->
-    <footer
-      class="main-footer"
-      style="background-image: url(images/footer-bg.jpg); margin-top: 0px"
-    >
-      <div class="container">
-        <!--Widgets Section-->
-        <div class="widgets-section">
-          <div class="row clearfix">
-            <!-- Footer Column -->
-            <div class="footer-column col-lg-6 col-md-4 col-sm-12">
-              <div class="footer-widget logo-widget">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img src="images/logo-main.png" alt=""
-                  /></a>
-                </div>
-                <div class="text">
-                  We provide expert Business Coaching to both individuals and
-                  businesses. With over 30 years of experience we’ll ensure that
-                  you’re always getting the best guidance from the top people in
-                  the entire industry.
-                </div>
+  <!-- Main Footer -->
+  <footer class="main-footer" style="background-image: url(images/footer-bg.jpg); margin-top: 0px">
+    <div class="container">
+      <!--Widgets Section-->
+      <div class="widgets-section">
+        <div class="row clearfix">
+          <!-- Footer Column -->
+          <div class="footer-column col-lg-6 col-md-4 col-sm-12">
+            <div class="footer-widget logo-widget">
+              <div class="logo">
+                <a href="index.html"><img src="images/logo-main.png" alt="" /></a>
+              </div>
+              <div class="text">
+                We provide expert Business Coaching to both individuals and
+                businesses. With over 30 years of experience we’ll ensure that
+                you’re always getting the best guidance from the top people in
+                the entire industry.
               </div>
             </div>
+          </div>
 
-            <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
-              <div class="footer-widget findUs-widget">
-                <div class="footer-title">
-                  <h4>Find Us:</h4>
-                </div>
-                <div class="find-us">
-                  <ul class="contact-link">
-                    <li>
-                      <span class="icon mbri-home"></span> 52 Tailstoi Town 546
-                      IT, NYC
-                    </li>
-                    <li>
-                      <span class="icon mbri-letter"></span> example@email.com
-                    </li>
-                    <li>
-                      <span class="icon mbri-mobile"></span> +1 777 777 8888
-                    </li>
-                  </ul>
-                </div>
-
-                <ul class="social-icon-one">
-                  <li class="title">Follow Us:</li>
+          <!-- Footer Column -->
+          <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+            <div class="footer-widget findUs-widget">
+              <div class="footer-title">
+                <h4>Find Us:</h4>
+              </div>
+              <div class="find-us">
+                <ul class="contact-link">
                   <li>
-                    <a href="javascript:void(0)"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
+                    <span class="icon mbri-home"></span> 52 Tailstoi Town 546
+                    IT, NYC
                   </li>
                   <li>
-                    <a href="javascript:void(0)"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                  </li>
-
-                  <li>
-                    <a href="javascript:void(0)"
-                      ><i class="fab fa-skype"></i
-                    ></a>
+                    <span class="icon mbri-letter"></span> example@email.com
                   </li>
                   <li>
-                    <a href="javascript:void(0)"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
+                    <span class="icon mbri-mobile"></span> +1 777 777 8888
                   </li>
                 </ul>
               </div>
-            </div>
 
-            <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
-              <div class="footer-widget findUs-widget">
-                <div class="footer-title">
-                  <h4>Pay With:</h4>
-                </div>
-                <div class="pay-opt">
-                  <img src="images/pay-opt.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="copyright">
-                &copy; <span id="year"></span> RepairIT. All rights reserved.
-              </div>
-            </div>
-            <div class="col-lg-7 float-right">
-              <ul class="footer-nav text-right">
-                <li><a href="javascript:void(0)">Home</a></li>
-                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+              <ul class="social-icon-one">
+                <li class="title">Follow Us:</li>
+                <li>
+                  <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li>
+                  <a href="javascript:void(0)"><i class="fab fa-skype"></i></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+                </li>
               </ul>
             </div>
           </div>
+
+          <!-- Footer Column -->
+          <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+            <div class="footer-widget findUs-widget">
+              <div class="footer-title">
+                <h4>Pay With:</h4>
+              </div>
+              <div class="pay-opt">
+                <img src="images/pay-opt.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="copyright">
+              &copy; <span id="year"></span> RepairIT. All rights reserved.
+            </div>
+          </div>
+          <div class="col-lg-7 float-right">
+            <ul class="footer-nav text-right">
+              <li><a href="javascript:void(0)">Home</a></li>
+              <li><a href="javascript:void(0)">Privacy Policy</a></li>
+              <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- jQuery Min JS -->
-    <script src="js/jquery-min.js"></script>
-    <!-- Popper Min JS -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap Min JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Owl Carousel Min JS -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Plugins JS -->
-    <script src="js/plugins.js"></script>
-    <!-- Appear JS -->
-    <script src="js/appear.js"></script>
-    <!-- MagnificPopup JS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
-  </body>
+  <!-- jQuery Min JS -->
+  <script src="js/jquery-min.js"></script>
+  <!-- Popper Min JS -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap Min JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Owl Carousel Min JS -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- Plugins JS -->
+  <script src="js/plugins.js"></script>
+  <!-- Appear JS -->
+  <script src="js/appear.js"></script>
+  <!-- MagnificPopup JS -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/custom.js"></script>
+</body>
+
 </html>

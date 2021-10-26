@@ -335,7 +335,7 @@ jQuery(window).on('load scroll', function () {
 });
 
 /*------------------------------------------------------------------
- Confirm modal
+ Modals
 ------------------------------------------------------------------*/
 $(window).on('load', function () {
   $('#haveWarrantyModal').modal('show');
@@ -345,3 +345,6 @@ $(window).on('load', function () {
 //   backdrop: 'static',
 //   keyboard: false
 // });
+$(window).on('load', function () {
+  $('#buyWarrantyModal').modal('show');
+});

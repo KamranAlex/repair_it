@@ -2101,9 +2101,13 @@ Have Warranty Modal
   padding: 9px 45px;
   transition: 0.3s ease;
 }
-.modal-haveWarranty .warrantyModal-card .btn-voidWarranty:focus,
+.modal-haveWarranty .warrantyModal-card .btn-voidWarranty:focus {
+  outline: none;
+  box-shadow: 0 0 7px 3px #ffbecb;
+}
 .modal-haveWarranty .warrantyModal-card .btn-activeWarranty:focus {
   outline: none;
+  box-shadow: 0 0 7px 3px #b2e9b8;
 }
 .modal-haveWarranty .warrantyModal-card .btn-voidWarranty:hover {
   cursor: pointer;
@@ -2136,6 +2140,7 @@ Have Warranty Modal
   line-height: 1.4rem;
   font-weight: 600;
   color: #151616;
+  margin-bottom: 2rem;
 }
 .buy-warrenty-sec .warrant-device-col .warranty-selected-device img {
   max-height: 480px;
@@ -2173,7 +2178,6 @@ Have Warranty Modal
   top: 0px;
   right: 0px;
   height: 100%;
-  /* background-color: #ffffff; */
   background-color: #f6f6f6;
 }
 
@@ -2198,10 +2202,10 @@ Have Warranty Modal
   box-shadow: 0 0 8px 2px #ebebeb; */
 }
 .sidebar-warranty-form .form-widget form label {
-  font-family: 'Poppins', sans-serif;
-  /* font-family: 'Titillium Web', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.25rem;
   color: #00adcd;
 }
@@ -2251,7 +2255,8 @@ Have Warranty Modal
 
 .sidebar-warranty-form .form-widget form .warranty-select select {
   font-size: 1.2rem;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
   height: 56px;
 }
 
@@ -2282,10 +2287,135 @@ Have Warranty Modal
 
 .sidebar-warranty-form .form-widget form button:focus {
   outline: none;
+  box-shadow: 0 0 7px 3px #ffbecb;
 }
 .sidebar-warranty-form .form-widget form button:hover {
   cursor: pointer;
   box-shadow: 0 0 7px 3px #ffbecb;
+}
+
+/*
+Buy Warranty Modal
+*/
+.modal-buyWarranty {
+  background-color: #fff;
+  transition: 1s all;
+  max-width: 800px !important;
+  transition: 1s all;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.modal-buyWarranty .section-title {
+  margin-bottom: 80px;
+  padding-bottom: 0;
+}
+
+.section-title .head-two {
+  font-size: 38px;
+  font-weight: 600;
+  color: #121619;
+  margin-top: 5px;
+}
+.modal-buyWarranty .section-title .modal-buyWarranty-title::before {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: #ff5273;
+  margin: auto;
+}
+.modal-buyWarranty .section-title .modal-buyWarranty-title::after {
+  position: absolute;
+  bottom: -10px;
+  left: -45px;
+  right: 0;
+  content: '';
+  width: 5px;
+  height: 3px;
+  margin: auto;
+  background-color: #ffffff;
+  -webkit-animation: moveLeftBounces 10s linear infinite;
+  animation: moveLeftBounces 10s linear infinite;
+}
+
+.modal-buyWarranty .buyWarranty-modal-form .warranty-modal-select {
+  position: relative;
+  border-radius: 0.25em;
+}
+.modal-buyWarranty .buyWarranty-modal-form .warranty-modal-select::after {
+  content: '\f0d7';
+  font-family: 'Fontawesome';
+  color: #58d5eb;
+  background-color: #343f44;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.95em 1em;
+  transition: 0.25s all ease;
+  pointer-events: none;
+  border-top-right-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+}
+.modal-buyWarranty .buyWarranty-modal-form .warranty-modal-select:hover::after {
+  color: #ff5273;
+}
+
+.modal-buyWarranty .buyWarranty-modal-form select {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  /* padding: 0 1em; */
+  color: #ffffff;
+  background-color: #495760;
+  background-image: none;
+  cursor: pointer;
+}
+
+.modal-buyWarranty .buyWarranty-modal-form select::-ms-expand {
+  display: none;
+}
+
+.modal-buyWarranty .buyWarranty-modal-form .warranty-modal-select select {
+  font-size: 1.2rem;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+  height: 56px;
+}
+
+.modal-buyWarranty .buyWarranty-modal-form button {
+  background-color: #21bcd8;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 12px 80px;
+  transition: 0.2s ease;
+  margin-top: 1rem;
+}
+
+.modal-buyWarranty .buyWarranty-modal-form button:focus {
+  outline: none;
+  box-shadow: 0 0 7px 3px #b1dce5;
+}
+.modal-buyWarranty .buyWarranty-modal-form button:hover {
+  cursor: pointer;
+  /* box-shadow: 0 0 7px 3px #ffbecb; */
+  box-shadow: 0 0 7px 3px #b1dce5;
+  /* background-color: #ff5273; */
 }
 
 /*
