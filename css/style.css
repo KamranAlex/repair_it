@@ -2862,9 +2862,9 @@ Contact Us Sec
   height: 60px;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   background: #ffffff;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -2882,12 +2882,12 @@ Contact Us Sec
   color: #444444;
   height: 140px;
   border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   background: #ffffff;
   resize: none;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
