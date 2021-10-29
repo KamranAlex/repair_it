@@ -87,11 +87,13 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="main-navigation">
             <ul class="navigation-box @@extra_class">
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="buyWarranty.html">Buy Warranty</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="buyWarranty.html">Buy Warranty</a>
+              </li>
               <li><a href="fixDevice.html">Fix a Device</a></li>
               <li><a href="about-us.html">About</a></li>
-              <li><a href="contactUs.html">Contact Us</a></li>
+              <li class="current"><a href="contactUs.html">Contact Us</a></li>
               <li><a href="#">Sign In</a></li>
             </ul>
           </div>
@@ -99,7 +101,7 @@
           <div class="right-side-box">
             <a
               href="#selectDevice"
-              class="default-btn"
+              class="default-btn open-popup-link"
               data-effect="mfp-move-horizontal"
               >Get A Quote <i class="fas fa-long-arrow-alt-right"></i>
             </a>
@@ -110,314 +112,9 @@
         <!-- /.container -->
       </nav>
     </header>
-    <div class="quote-part mfp-hide" id="quote-popup">
-      <div class="container">
-        <div class="section-title">
-          <span class="section-span">Get A Quote</span>
-          <h2 class="text-center head-two">
-            Lets create something awesome together!
-          </h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-7">
-            <form class="quote-form">
-              <div class="row">
-                <div class="col-md">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Name"
-                    required
-                  />
-                </div>
-                <div class="col-md">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  placeholder="Message"
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="quote-contact-btn">SEND</button>
-            </form>
-          </div>
-          <div class="col-lg-5">
-            <div class="contact-detail-grp position-r">
-              <div class="contact-middle">
-                <div class="contact-detail">
-                  <h3 class="head-three">Give us a call</h3>
-                  <a href="fas fa-long-arrow-alt-right">+01 123 456 789</a>
-                </div>
-                <div class="contact-detail">
-                  <h3 class="head-three">Send us an email</h3>
-                  <a href="#" data-popupalt-original-title="null" title="null"
-                    >info@test.com</a
-                  >
-                </div>
-                <div class="contact-detail social-ac">
-                  <h3 class="head-three">Follow us on</h3>
-                  <a href="javascript:void(0)"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a href="javascript:void(0)"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a href="javascript:void(0)"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                  <a href="javascript:void(0)"
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ttm-stickable-header-w end-->
 
-    <!-- Site Slider Start -->
-    <section class="slider-one">
-      <div class="slider-one__carousel owl-carousel owl-theme">
-        <div
-          class="item slider-one__slider-1"
-          style="background-image: url(images/happy.jpg); max-height: 600px"
-        >
-          <div class="container text-left">
-            <h2 class="slider-one__title">Buy Warranty</h2>
-            <!-- /.slider-one__title -->
-            <p class="slider-one__text">
-              Excepteur sint occaecat cupidatat non proident sunt in culpa qui
-            </p>
-            <a href="contact-us.html" class="default-btn slider-one__text"
-              >Order Now <i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-            <!-- /.slider-one__text -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.item -->
-        <div
-          class="item slider-one__slider-2"
-          style="
-            background-image: url(images/fix-device.jpg);
-            max-height: 600px;
-          "
-        >
-          <div class="container text-left">
-            <h2 class="slider-one__title">Get a Quote</h2>
-            <!-- /.slider-one__title -->
-            <p class="slider-one__text">
-              Excepteur sint occaecat cupidatat non proident sunt in culpa qui
-            </p>
-            <a href="#selectDevice" class="default-btn slider-one__text"
-              >Book Now <i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-            <!-- /.slider-one__text -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.item -->
-      </div>
-      <!-- /.slider-one__carousel -->
-    </section>
-
-    <!-- Feature Sec Start -->
-    <section class="feature-sec pt-0 pb-0">
-      <div class="feature-container">
-        <div class="feature-carousel owl-carousel owl-theme">
-          <!--Feature Slide -->
-          <div class="feature-block">
-            <div class="inner-box">
-              <div class="feature-items d-flex">
-                <p class="feature-text my-0">
-                  All your Repairs and Warrenty in one place
-                </p>
-                <span class="mx-3">&#10150;</span>
-                <img
-                  src="images/features-icon/repair-warranty.png"
-                  alt=""
-                  class="feature-img"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!--Feature Slide -->
-          <div class="feature-block">
-            <div class="inner-box">
-              <div class="feature-items d-flex">
-                <p class="feature-text my-0">Request a Repair Quote</p>
-                <span class="mx-3">&#10150;</span>
-                <img
-                  src="images/features-icon/quote.png"
-                  alt=""
-                  class="feature-img"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!--Feature Slide -->
-          <div class="feature-block">
-            <div class="inner-box">
-              <div class="feature-items d-flex">
-                <p class="feature-text my-0">Ship your Device to us</p>
-                <span class="mx-3">&#10150;</span>
-                <img
-                  src="images/features-icon/shipping-truck.png"
-                  alt=""
-                  class="feature-img"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!--Feature Slide -->
-          <div class="feature-block">
-            <div class="inner-box">
-              <div class="feature-items d-flex">
-                <p class="feature-text my-0">Get Fast Diagnosis</p>
-                <span class="mx-3">&#10150;</span>
-                <img
-                  src="images/features-icon/diagnosis-device.png"
-                  alt=""
-                  class="feature-img"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!--Feature Slide -->
-          <div class="feature-block">
-            <div class="inner-box">
-              <div class="feature-items d-flex">
-                <p class="feature-text my-0">Fast Turn Around</p>
-                <span class="mx-3">&#10150;</span>
-                <img
-                  src="images/features-icon/back-shipping.png"
-                  alt=""
-                  class="feature-img"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Process Sec Ends
-     ==========================
-     ==========================-->
-
-    <!-- How we Do Section -->
-    <section class="steps-sec">
-      <div class="container">
-        <!-- Sec Title -->
-        <div class="section-title">
-          <span>How it works</span>
-          <h2>Get started with 3 easy steps</h2>
-        </div>
-        <div class="row mb-3">
-          <!-- Step Card Start -->
-          <div class="col-lg-4 col-md-6">
-            <div class="steps-card steps-card-agency">
-              <div class="steps-card-icon d-flex">
-                <p class="steps-index mr-3">1</p>
-                <img src="images/steps-icon/cargo-box.png" alt="" />
-              </div>
-              <div class="steps-card-header">
-                <p class="steps-title my-0">You Ship It</p>
-                <hr class="steps-title-separator" />
-              </div>
-              <div class="steps-card-body">
-                <p class="steps-card-text my-0">
-                  Mail us your computer along with contact information, return
-                  mailing address and a description of the problems you are
-                  experiencing. If you don’t have your original computer box,
-                  don’t panic. Use a plain cardboard box with bubble wrap or
-                  peanuts as padding.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step Card Start -->
-          <div class="col-lg-4 col-md-6">
-            <div class="steps-card steps-card-agency">
-              <div class="steps-card-icon d-flex">
-                <p class="steps-index mr-3">2</p>
-                <img src="images/steps-icon/processing.png" alt="" />
-              </div>
-              <div class="steps-card-header">
-                <p class="steps-title my-0">We Diagnose</p>
-                <hr class="steps-title-separator" />
-              </div>
-              <div class="steps-card-body">
-                <p class="steps-card-text my-0">
-                  We will run a full battery of diagnostics that match your
-                  indicated problems and you will typically receive the computer
-                  repair diagnosis and a complete written repair estimate via
-                  email within 24 hours.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Step Card Start -->
-          <div class="col-lg-4 col-md-6">
-            <div class="steps-card steps-card-agency">
-              <div class="steps-card-icon d-flex">
-                <p class="steps-index mr-3">3</p>
-                <img src="images/steps-icon/repair.png" alt="" />
-              </div>
-              <div class="steps-card-header">
-                <p class="steps-title my-0">We Repair & Return</p>
-                <hr class="steps-title-separator" />
-              </div>
-              <div class="steps-card-body">
-                <p class="steps-card-text my-0">
-                  Approved repairs are typically completed within 3 to 5 working
-                  days and your “good-as-new” computer is promptly shipped back
-                  to you. You enjoy an updated and fully functioning repaired
-                  computer for less than the price of a new computer.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="steps-sec-footer text-center pt-4 mb-2">
-          <a
-            href="#selectDevice"
-            class="default-btn"
-            data-effect="mfp-move-horizontal"
-            >Get Started <i class="fas fa-long-arrow-alt-right"></i>
-          </a>
-        </div> -->
-      </div>
-    </section>
-
-    <!-- Services Sec Start -->
-    <section class="services-sec service-area-two" id="selectDevice">
+    <!--Services PopUp-->
+    <section class="services-sec service-area-two mfp-hide" id="selectDevice">
       <div class="container">
         <div class="section-title">
           <span>Reliable repair for the device you depend on most</span>
@@ -499,173 +196,133 @@
         </div> -->
       </div>
     </section>
+    <!--Services PopUp End-->
 
-    <!-- Pricing Table Section -->
-    <section class="pricing-sec">
+    <!--Page Title-->
+    <section
+      class="page-title"
+      style="background-image: url(images/contact-us2.jpg)"
+    >
       <div class="container">
-        <!-- Sec Title -->
-        <div class="section-title">
-          <span>we provide</span>
-          <h2>Extended Warranty</h2>
+        <div class="clearfix">
+          <div class="float-left">
+            <div class="title">Welcome to RepairIT</div>
+            <h2>Contact Us</h2>
+          </div>
+          <div class="float-right">
+            <ul class="page-breadcrumb">
+              <li><a href="index.html">Home</a></li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
         </div>
-        <div class="row">
-          <!-- Single pricing table Start -->
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-table pricing-table-agency">
-              <div class="pricing-table-icon">
-                <img src="images/waranty.png" alt="" />
+      </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- Contact Us Sec Start -->
+    <section class="contact-page-section inner-wrapper">
+      <div class="container">
+        <div class="row clearfix">
+          <!-- Info Column -->
+          <div class="info-column col-lg-6 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="sec-title">
+                <div class="title">Get in Touch</div>
+                <h2>
+                  For Any Kind of Help <br />
+                  And Informations
+                </h2>
+                <div class="text">
+                  We’re glad to discuss your need. <br />
+                  Please contact us via the details below, or message your
+                  quest.
+                </div>
               </div>
-              <div class="pricing-table-header">
-                <h5>3 Months</h5>
-                <p class="pricing"><sup>$</sup>29.99<small> starting</small></p>
-              </div>
-              <div class="pricing-table-body">
-                <ul>
-                  <li>
-                    <span class="ti-check-box mr-2"></span> Mechanical
-                    malfunction
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Battery failure
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Hard drive failure
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Wi-Fi or Bluetooth
-                    failure
-                  </li>
-                  <li><span class="ti-check-box mr-2"></span>& More</li>
-                </ul>
-              </div>
-              <div class="pricing-table-footer">
-                <a
-                  href="#"
-                  class="default-btn open-popup-link"
-                  data-effect="mfp-move-horizontal"
-                  >Order now <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
-              </div>
+              <ul class="list-style-two style-two">
+                <li>
+                  <span class="icon fa fa-map-marker"></span>
+                  <strong>Our Address:</strong> 321, art Street 235 Newyork ,USA
+                  102
+                </li>
+                <li>
+                  <span class="icon fa fa-phone"></span>
+                  <strong>Call for help:</strong> (012) 697-2907
+                </li>
+                <li>
+                  <span class="icon far fa-envelope"></span>
+                  <strong>Mail us for information</strong> example@test.com
+                </li>
+              </ul>
             </div>
           </div>
 
-          <!-- Single pricing table Start -->
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-table pricing-table-agency">
-              <div class="pricing-table-icon">
-                <img src="images/waranty.png" alt="" />
+          <!-- Form Column -->
+          <div class="form-column col-lg-6 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="form-col-title">
+                <div class="title">Send a Message</div>
               </div>
-              <div class="pricing-table-header">
-                <h5>6 Months</h5>
-                <p class="pricing"><sup>$</sup>49.99<small> starting</small></p>
-              </div>
-              <div class="pricing-table-body">
-                <ul>
-                  <li>
-                    <span class="ti-check-box mr-2"></span> Mechanical
-                    malfunction
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Battery failure
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Hard drive failure
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Wi-Fi or Bluetooth
-                    failure
-                  </li>
-                  <li><span class="ti-check-box mr-2"></span>& More</li>
-                </ul>
-              </div>
-              <div class="pricing-table-footer">
-                <a
-                  href="#"
-                  class="default-btn open-popup-link"
-                  data-effect="mfp-move-horizontal"
-                  >Order now <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
 
-          <!-- Single pricing table Start -->
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-table pricing-table-agency">
-              <div class="pricing-table-icon">
-                <img src="images/waranty.png" alt="" />
-              </div>
-              <div class="pricing-table-header">
-                <h5>12 Months</h5>
-                <p class="pricing"><sup>$</sup>99.99<small> starting</small></p>
-              </div>
-              <div class="pricing-table-body">
-                <ul>
-                  <li>
-                    <span class="ti-check-box mr-2"></span> Mechanical
-                    malfunction
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Battery failure
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Hard drive failure
-                  </li>
-                  <li>
-                    <span class="ti-check-box mr-2"></span>Wi-Fi or Bluetooth
-                    failure
-                  </li>
-                  <li><span class="ti-check-box mr-2"></span>& More</li>
-                </ul>
-              </div>
-              <div class="pricing-table-footer">
-                <a
-                  href="#"
-                  class="default-btn open-popup-link"
-                  data-effect="mfp-move-horizontal"
-                  >Order now <i class="fas fa-long-arrow-alt-right"></i>
-                </a>
+              <!-- Contact Form -->
+              <div class="contact-form">
+                <form method="post" action="sendemail.php" id="contact-form">
+                  <div class="row clearfix">
+                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                      <input
+                        type="text"
+                        name="username"
+                        value=""
+                        placeholder="Name *"
+                        required
+                      />
+                    </div>
+                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                      <input
+                        type="email"
+                        name="email"
+                        value=""
+                        placeholder="Email *"
+                        required
+                      />
+                    </div>
+                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                      <input
+                        type="text"
+                        name="phone"
+                        value=""
+                        placeholder="Phone *"
+                        required
+                      />
+                    </div>
+                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                      <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                    <div
+                      class="form-group text-center btn-column col-md-12 col-sm-12 col-xs-12"
+                    >
+                      <button type="submit" class="default-btn">
+                        <span class="txt">Send</span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Contact Us Sec End -->
 
-    <!-- About Sec Start -->
-    <section class="about-sec">
-      <div class="container">
-        <div class="section-title">
-          <span>What We Do </span>
-          <h2>About Us</h2>
-        </div>
-        <div class="row justify-content-between align-items-center">
-          <div class="col-md-12 col-lg-5 mb-4">
-            <div class="video-promo-content mb-md-4 mb-lg-0">
-              <h2>Let the device be taken care by the Professionals</h2>
-              <p class="pb-4">
-                Interactively develop timely niche markets before extensive
-                imperatives. Professionally repurpose interoperable growth
-                strategies before effective core competencies.
-              </p>
-
-              <a href="contact-us.html" class="default-btn"
-                >Learn More <i class="fas fa-long-arrow-alt-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-12 col-lg-6 my-3 mt-lg-0">
-            <div class="card border-0 shadow-sm text-white">
-              <img
-                src="images/repairMan.jpg"
-                alt="video"
-                class="img-fluid rounded shadow-sm"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004078.75648254!2d-104.6568059439823!3d37.275602428659404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1576166406912!5m2!1sen!2sin"
+        allowfullscreen=""
+      ></iframe>
+      <div></div>
+    </div>
+    <!-- Google Map End -->
 
     <!-- Testimonials Section -->
     <section class="testimonial-section">
@@ -992,6 +649,7 @@
         </div>
       </div>
     </footer>
+
     <!-- jQuery Min JS -->
     <script src="js/jquery-min.js"></script>
     <!-- Popper Min JS -->

@@ -2743,6 +2743,213 @@ a.video-play-icon-without-bip:hover {
 
 /*
 ================================================
+Contact Us Sec
+================================================
+*/
+.contact-page-section {
+  padding: 80px 0 40px;
+}
+.contact-page-section .info-column {
+  position: relative;
+  margin-bottom: 40px;
+}
+.contact-page-section .sec-title {
+  position: relative;
+  margin-bottom: 40px;
+}
+.contact-page-section .sec-title .title {
+  position: relative;
+  color: #ff5273;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.contact-page-section .sec-title h2 {
+  position: relative;
+  color: #393939;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-transform: capitalize;
+}
+.contact-page-section .sec-title .text {
+  position: relative;
+  color: #393939;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  margin-top: 15px;
+}
+.contact-page-section .list-style-two.style-two li {
+  color: #666666;
+}
+.contact-page-section .list-style-two li {
+  position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  padding-left: 80px;
+  line-height: 1.8em;
+}
+.contact-page-section .list-style-two li .icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 38px;
+  height: 38px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 38px;
+  display: inline-block;
+  background: #ff5273;
+}
+.contact-page-section .list-style-two.style-two li strong {
+  color: #000000;
+}
+.contact-page-section .list-style-two li strong {
+  position: relative;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 3px;
+}
+.contact-page-section .info-column .inner-column {
+  position: relative;
+}
+.contact-page-section .form-column {
+  position: relative;
+  margin-bottom: 16px;
+}
+.contact-page-section .form-col-title .inner-column {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.contact-page-section .form-col-title .title {
+  position: relative;
+  color: #ff5273;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.contact-page-section .contact-form {
+  padding: 28px 20px 16px;
+  background: #f9f9f9;
+  border-radius: 0.3rem;
+}
+.contact-page-section .contact-form input.error,
+.contact-page-section .contact-form select.error,
+.contact-page-section .contact-form textarea.error {
+  border-color: #ff0000 !important;
+}
+.contact-page-section .contact-form .form-group {
+  position: relative;
+}
+
+.contact-page-section .contact-form .form-group input[type='text'],
+.contact-page-section .contact-form .form-group input[type='email'] {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 24px;
+  padding: 13px 20px;
+  color: #444444;
+  height: 60px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.contact-page-section .contact-form .form-group textarea {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 24px;
+  padding: 13px 20px;
+  color: #444444;
+  height: 140px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  resize: none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.contact-page-section .contact-form .form-group input::placeholder,
+.contact-page-section .contact-form .form-group textarea::placeholder {
+  font-style: oblique;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+}
+.contact-page-section .contact-form .form-group input:focus-visible,
+.contact-page-section .contact-form .form-group textarea:focus-visible {
+  outline: none;
+  border-color: #21bcd8;
+}
+
+.contact-page-section .contact-form label.error {
+  display: block;
+  line-height: 24px;
+  padding: 5px 0px 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ff0000;
+  font-weight: 500;
+}
+/** Map **/
+.contact-map-section {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.contact-map-section .map-outer {
+  position: relative;
+  height: 500px;
+}
+.contact-map-section .map-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 500px;
+}
+.google-map {
+  margin: 0 0 -10px;
+}
+.google-map iframe {
+  width: 100%;
+  height: 450px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: none;
+}
+
+/*
+================================================
 12. Our Team Sec 
 ================================================
 */
@@ -3774,137 +3981,7 @@ a.video-play-icon-without-bip:hover {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/*
-================================================
-19. Contact Us Sec
-================================================
-*/
-.contact-page-section {
-  padding: 80px 0 40px;
-}
-.contact-page-section .info-column {
-  position: relative;
-  margin-bottom: 40px;
-}
-.contact-page-section .sec-title {
-  position: relative;
-  margin-bottom: 40px;
-}
-.contact-page-section .sec-title .title {
-  position: relative;
-  color: #ff5273;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 15px;
-  text-transform: capitalize;
-}
-.contact-page-section .sec-title h2 {
-  position: relative;
-  color: #393939;
-  font-weight: 700;
-  line-height: 1.3em;
-  text-transform: capitalize;
-}
-.contact-page-section .sec-title .text {
-  position: relative;
-  color: #393939;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8em;
-  margin-top: 15px;
-}
-.contact-page-section .list-style-two.style-two li {
-  color: #666666;
-}
-.contact-page-section .list-style-two li {
-  position: relative;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 15px;
-  padding-left: 80px;
-  line-height: 1.8em;
-}
-.contact-page-section .list-style-two li .icon {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 50px;
-  height: 50px;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  background: #ff5273;
-}
-.contact-page-section .list-style-two.style-two li strong {
-  color: #000000;
-}
-.contact-page-section .list-style-two li strong {
-  position: relative;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 24px;
-  display: block;
-  margin-bottom: 3px;
-}
-.contact-page-section .info-column .inner-column {
-  position: relative;
-}
-.contact-page-section .form-column {
-  position: relative;
-  margin-bottom: 40px;
-}
-.contact-page-section .form-column .inner-column {
-  position: relative;
-}
-.contact-form input.error,
-.contact-form select.error,
-.contact-form textarea.error {
-  border-color: #ff0000 !important;
-}
-.contact-form label.error {
-  display: block;
-  line-height: 24px;
-  padding: 5px 0px 0px;
-  margin: 0px;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: #ff0000;
-  font-weight: 500;
-}
-/** Map **/
-.contact-map-section {
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 100px;
-}
-.contact-map-section .map-outer {
-  position: relative;
-  height: 500px;
-}
-.contact-map-section .map-canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 500px;
-}
-.google-map {
-  margin: 0 0 -10px;
-}
-.google-map iframe {
-  width: 100%;
-  height: 450px;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  border: none;
-}
+
 /*
 ================================================
 20. Footer Sec 
