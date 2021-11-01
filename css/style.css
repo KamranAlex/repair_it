@@ -2430,113 +2430,22 @@ Buy Warranty Modal
   padding: 70px 0;
   background: #f0f8ff;
 }
-.about-sec .video-promo-content h2 {
+.about-sec .about-content h2 {
   font-size: 40px;
   font-weight: 700;
   color: #21bcd8;
 }
-.video-play-icon {
-  position: relative;
-  display: block;
-  width: 100%;
-  top: 40%;
-  left: -10%;
+.about-sec .about-content .about-sub-title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #333333;
 }
-.video-play-icon span {
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  border-radius: 50%;
-  position: absolute;
-  text-align: center;
-  font-size: 30px;
-  cursor: pointer;
-  background: #ffffff;
-  -webkit-transition: 0.5s;
-  padding-left: 5px;
-}
-.about-sec ul li span {
-  color: #ff5273;
-}
-.color-bip span {
-  -webkit-animation: ripple 1s linear infinite;
-  animation: ripple 1s linear infinite;
-}
-.white-bip span {
-  -webkit-animation: ripple-white 1s linear infinite;
-  animation: ripple-white 1s linear infinite;
-}
-a.video-play-icon-without-bip:hover span {
-  color: #ffffff;
-}
-a.video-play-icon {
-  border-radius: 50%;
-  display: block;
-}
-a.video-play-icon-without-bip {
-  animation: none;
-}
-a.video-play-icon-without-bip:hover {
-  -webkit-animation: ripple-white 1s linear infinite;
-  animation: ripple-white 1s linear infinite;
-  -webkit-transition: 0.5s;
-  background-color: #1a2c79;
-}
-@-webkit-keyframes ripple {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(50, 100, 245, 0.15),
-      0 0 0 20px rgba(50, 100, 245, 0.15), 0 0 0 40px rgba(50, 100, 245, 0.15);
-    box-shadow: 0 0 0 0 rgba(50, 100, 245, 0.15),
-      0 0 0 20px rgba(50, 100, 245, 0.15), 0 0 0 40px rgba(50, 100, 245, 0.15);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 20px rgba(50, 100, 245, 0.15),
-      0 0 0 40px rgba(50, 100, 245, 0.15), 0 0 0 60px rgba(50, 100, 245, 0);
-    box-shadow: 0 0 0 20px rgba(50, 100, 245, 0.15),
-      0 0 0 40px rgba(50, 100, 245, 0.15), 0 0 0 60px rgba(50, 100, 245, 0);
-  }
-}
-@keyframes ripple {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(50, 100, 245, 0.15),
-      0 0 0 20px rgba(50, 100, 245, 0.15), 0 0 0 40px rgba(50, 100, 245, 0.15);
-    box-shadow: 0 0 0 0 rgba(50, 100, 245, 0.15),
-      0 0 0 20px rgba(50, 100, 245, 0.15), 0 0 0 40px rgba(50, 100, 245, 0.15);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 20px rgba(50, 100, 245, 0.15),
-      0 0 0 40px rgba(50, 100, 245, 0.15), 0 0 0 60px rgba(50, 100, 245, 0);
-    box-shadow: 0 0 0 20px rgba(50, 100, 245, 0.15),
-      0 0 0 40px rgba(50, 100, 245, 0.15), 0 0 0 60px rgba(50, 100, 245, 0);
-  }
-}
-@-webkit-keyframes ripple-white {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
-      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
-      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
-      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
-      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
-  }
-}
-@keyframes ripple-white {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
-      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
-      0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
-      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
-      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
-  }
+.about-sec .about-content .about-text {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #141414;
 }
 .about-img-wrap {
   position: relative;
@@ -2839,7 +2748,7 @@ Contact Us Sec
 }
 .contact-page-section .contact-form {
   padding: 28px 20px 16px;
-  background: #f9f9f9;
+  background: #ebebeb;
   border-radius: 0.3rem;
 }
 .contact-page-section .contact-form input.error,
