@@ -2268,7 +2268,136 @@ Have Warranty Modal
   color: #ff5273;
 }
 
-.sidebar-warranty-form .form-widget form button {
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .warrenty-form-pricing {
+  margin-top: 16px;
+  justify-content: space-evenly;
+}
+
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .warrenty-form-pricing
+  .your-price
+  .price-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  line-height: initial;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #2c2c2c;
+}
+
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .warrenty-form-pricing
+  .your-price
+  .amount-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #ff5273;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .warrenty-form-pricing
+  .your-price
+  .amount-deactive {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #21bcd8;
+  text-decoration: line-through;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .warrenty-form-pricing
+  .your-price
+  .amount-deactive
+  span {
+  color: #ff5273;
+}
+
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .warrenty-form-pricing
+  .your-price
+  .saved-msg {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1rem;
+  line-height: initial;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .form-btn-top-msg
+  .deductible-cost {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1rem;
+  line-height: initial;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .form-btn-top-msg
+  .deductible-cost
+  span {
+  color: #21bcd8;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .form-btn-top-msg
+  a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1rem;
+  line-height: initial;
+  font-weight: 600;
+  color: #21bcd8;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .form-btn-top-msg
+  a:hover {
+  color: #ff5273;
+  transition: none;
+}
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .form-btn-top-msg
+  a
+  i {
+  transition: none;
+}
+
+.sidebar-warranty-form .form-widget form .warrenty-form-footer button {
   background-color: #ff5273;
   border: none;
   text-align: center;
@@ -2285,13 +2414,25 @@ Have Warranty Modal
   transition: 0.3s ease;
 }
 
-.sidebar-warranty-form .form-widget form button:focus {
+.sidebar-warranty-form .form-widget form .warrenty-form-footer button:focus {
   outline: none;
   box-shadow: 0 0 7px 3px #ffbecb;
 }
-.sidebar-warranty-form .form-widget form button:hover {
+.sidebar-warranty-form .form-widget form .warrenty-form-footer button:hover {
   cursor: pointer;
   box-shadow: 0 0 7px 3px #ffbecb;
+}
+
+.sidebar-warranty-form
+  .form-widget
+  form
+  .warrenty-form-footer
+  .form-btn-bottom-msg {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #21bcd8;
 }
 
 /*
@@ -4827,6 +4968,72 @@ SignUp Page
   .modal-buyWarranty .buyWarranty-modal-form button {
     font-size: 16px;
   }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .price-text {
+    font-size: 1.1rem;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .amount-text {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .amount-deactive {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .saved-msg {
+    font-size: 1rem;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .form-btn-top-msg
+    .deductible-cost {
+    font-size: 1rem;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .form-btn-top-msg
+    a {
+    font-size: 1rem;
+  }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .form-btn-bottom-msg {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -4874,5 +5081,72 @@ SignUp Page
   }
   .modal-buyWarranty .buyWarranty-modal-form button {
     font-size: 16px;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .price-text {
+    font-size: 1.1rem;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .amount-text {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .amount-deactive {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .warrenty-form-pricing
+    .your-price
+    .saved-msg {
+    font-size: 1rem;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .form-btn-top-msg
+    .deductible-cost {
+    font-size: 1rem;
+  }
+
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .form-btn-top-msg
+    a {
+    font-size: 1rem;
+  }
+  .sidebar-warranty-form
+    .form-widget
+    form
+    .warrenty-form-footer
+    .form-btn-bottom-msg {
+    font-size: 14px;
   }
 }
