@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RepairIT</title>
+    <!-- Plugins CSS -->
+    <link href="css/plugins.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/fav-repair.png"
+    />
+  </head>
+
+  <body>
+    <!-- Pre Loader -->
+    <div id="dvLoading"></div>
+    <!-- Top Bar -->
+    <div class="search-popup">
+      <div class="search-popup__overlay custom-cursor__overlay">
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+      </div>
+      <!-- /.search-popup__overlay -->
+      <div class="search-popup__inner">
+        <form action="#" class="search-popup__form">
+          <input
+            type="text"
+            name="search"
+            placeholder="Type here to Search...."
+          />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <!-- /.search-popup__inner -->
+    </div>
+    <div class="topbar-one">
+      <div class="container">
+        <div class="topbar-one__left">
+          <div class="topbar-one__social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-rss"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          </div>
+        </div>
+        <div class="topbar-one__right">
+          <div class="topbar-one__links">
+            <a href="#" class="topbar-one__search search-popup__toggler"
+              ><i class="fas fa-search"></i> </a
+            ><a href="#" class="topbar-one__link"
+              ><i class="far fa-clock"></i>Mon - Fri: 9.30 - 18.30</a
+            ><a href="#" class="topbar-one__link"
+              ><i class="far fa-envelope"></i>info@test.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Site Header Menu -->
+    <header class="site-header site-header__header-one site-header__home-one">
+      <nav
+        class="navbar navbar-expand-lg navbar-light header-navigation stricky"
+      >
+        <div class="container clearfix">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="logo-box">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="images/logo-main.png"
+                width="185"
+                class="main-logo"
+                alt="Awesome Image"
+              />
+            </a>
+            <button class="menu-toggler" data-target=".main-navigation">
+              <span class="fa fa-bars"></span>
+            </button>
+          </div>
+          <!-- /.logo-box -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="main-navigation">
+            <ul class="navigation-box @@extra_class">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="buyWarranty.html">Buy Warranty</a>
+              </li>
+              <li><a href="fixDevice.html">Fix a Device</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="contactUs.html">Contact Us</a></li>
+              <li><a href="log-in.html">Sign In</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="right-side-box">
+            <a
+              href="#selectDevice"
+              class="default-btn open-popup-link"
+              data-effect="mfp-move-horizontal"
+              >Get A Quote <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+            <!-- /.thm-btn -->
+          </div>
+          <!-- /.right-side-box -->
+        </div>
+        <!-- /.container -->
+      </nav>
+    </header>
+
+    <!--Services PopUp-->
+    <section class="services-sec service-area-two mfp-hide" id="selectDevice">
+      <div class="container">
+        <div class="section-title">
+          <span>Reliable repair for the device you depend on most</span>
+          <h2>Select your device to get started</h2>
+        </div>
+        <div class="row mb-4">
+          <!-- Single Services Start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card">
+              <div class="service-content-wrap">
+                <img src="images/devices/phone.png" alt="" />
+                <h3>Cell Phone</h3>
+              </div>
+              <div class="service-heading">
+                <a class="circle-read-more" href="fixDevice.html">
+                  <h3>Cell Phone</h3>
+                  <i class="ti ti-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Services Start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card">
+              <div class="service-content-wrap">
+                <img src="images/devices/tablet.png" alt="" />
+                <h3>Tablet</h3>
+              </div>
+              <div class="service-heading">
+                <a class="circle-read-more" href="fixDevice.html">
+                  <h3>Tablet</h3>
+                  <i class="ti ti-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Services Start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card">
+              <div class="service-content-wrap">
+                <img
+                  src="images/devices/pc.png"
+                  alt=""
+                  style="max-width: 180px"
+                />
+                <h3>Computer</h3>
+              </div>
+              <div class="service-heading">
+                <a class="circle-read-more" href="fixDevice.html">
+                  <h3>Computer</h3>
+                  <i class="ti ti-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Services Start -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card">
+              <div class="service-content-wrap">
+                <img src="images/devices/game-console.png" alt="" />
+                <h3>Game Console</h3>
+              </div>
+              <div class="service-heading">
+                <a class="circle-read-more" href="fixDevice.html">
+                  <h3>Game Console</h3>
+                  <i class="ti ti-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Services PopUp End-->
+
+    <!--Page Title-->
+    <section
+      class="page-title"
+      style="background-image: url(images/Terms-And-Conditions.jpg)"
+    >
+      <div class="container">
+        <div class="clearfix">
+          <div class="float-left">
+            <div class="title">Welcome to RepairIT</div>
+            <h2>Terms & Conditions</h2>
+          </div>
+          <div class="float-right">
+            <ul class="page-breadcrumb">
+              <li><a href="index.html">Home</a></li>
+              <li>Terms & conditions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Page Title-->
+
+    <!--End Page Title-->
+    <!-- Terms Sec Start -->
+    <section class="terms-page-section inner-wrapper">
+      <div class="container">
+        <div class="sec-title" style="color: #ff5c7b">
+          <h2>Terms & Conditions</h2>
+        </div>
+        <div class="terms-list-container container">
+          <ol class="outer-terms-list">
+            <!-- Single Term -->
+            <li class="terms-title">
+              Lorem ipsum dolor.
+              <ul class="inner-terms-content">
+                <li class="terms-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci enim, sed soluta architecto corrupti hic a sunt
+                  quidem unde. Laboriosam.
+                </li>
+              </ul>
+            </li>
+
+            <!-- Single Term -->
+            <li class="terms-title">
+              Lorem ipsum dolor.
+              <ul class="inner-terms-content">
+                <li class="terms-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Fugiat tempore velit, sint reprehenderit laudantium enim
+                  repellendus optio omnis possimus veniam consequatur illum quo,
+                  iure magni ratione nam laborum eaque ipsam.
+                </li>
+              </ul>
+            </li>
+
+            <!-- Single Term -->
+            <li class="terms-title">
+              Lorem ipsum dolor.
+              <ul class="inner-terms-content">
+                <li class="terms-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  a eum odit unde illo et ab tempora debitis accusantium,
+                  nostrum maiores voluptate vero officia dolorum ex commodi
+                  inventore enim? Ad porro sed at quam quos mollitia, itaque
+                  voluptate iure dicta beatae, adipisci sequi consequuntur. Eius
+                  sunt sed provident quisquam dolor.
+                </li>
+              </ul>
+            </li>
+
+            <!-- Single Term -->
+            <li class="terms-title">
+              Lorem ipsum dolor.
+              <ul class="inner-terms-content">
+                <li class="terms-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae sequi exercitationem aperiam vel illo soluta eum
+                  repellat eos, odit quidem sunt molestias eius nihil dolorem?
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer
+      class="main-footer"
+      style="background-image: url(images/footer-bg.jpg); margin-top: 0px"
+    >
+      <div class="container">
+        <!--Widgets Section-->
+        <div class="widgets-section">
+          <div class="row clearfix">
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-6 col-md-4 col-sm-12">
+              <div class="footer-widget logo-widget">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="images/logo-main.png" alt=""
+                  /></a>
+                </div>
+                <div class="text">
+                  We provide expert Business Coaching to both individuals and
+                  businesses. With over 30 years of experience we’ll ensure that
+                  you’re always getting the best guidance from the top people in
+                  the entire industry.
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+              <div class="footer-widget findUs-widget">
+                <div class="footer-title">
+                  <h4>Find Us:</h4>
+                </div>
+                <div class="find-us">
+                  <ul class="contact-link">
+                    <li>
+                      <span class="icon mbri-home"></span> 52 Tailstoi Town 546
+                      IT, NYC
+                    </li>
+                    <li>
+                      <span class="icon mbri-letter"></span> example@email.com
+                    </li>
+                    <li>
+                      <span class="icon mbri-mobile"></span> +1 777 777 8888
+                    </li>
+                  </ul>
+                </div>
+
+                <ul class="social-icon-one">
+                  <li class="title">Follow Us:</li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="fab fa-skype"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-3 col-md-4 col-sm-12">
+              <div class="footer-widget findUs-widget">
+                <div class="footer-title">
+                  <h4>Pay With:</h4>
+                </div>
+                <div class="pay-opt">
+                  <img src="images/pay-opt.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="copyright">
+                &copy; <span id="year"></span> RepairIT. All rights reserved.
+              </div>
+            </div>
+            <div class="col-lg-7 float-right">
+              <ul class="footer-nav text-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery Min JS -->
+    <script src="js/jquery-min.js"></script>
+    <!-- Popper Min JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Min JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Appear JS -->
+    <script src="js/appear.js"></script>
+    <!-- MagnificPopup JS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

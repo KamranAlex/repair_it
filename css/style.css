@@ -3602,62 +3602,33 @@ SignUp Page
 }
 /*
 ================================================
-17. Gallery Sec 
+18. Terms & Condition Page
 ================================================
 */
-.gallery-area .gallery-item {
-  position: relative;
-  overflow: hidden;
+.terms-page-section {
+  padding: 70px 0 40px;
 }
-.gallery-area .gallery-item .gallery-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 18, 25, 0.4);
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  transform: scale(0.5);
+.terms-page-section .sec-title {
+  margin-bottom: 32px;
 }
-.gallery-area .gallery-item .gallery-overlay a {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  transform: translate(-50%, -50%);
-  height: 60px;
-  width: 60px;
-  text-align: center;
-  line-height: 60px;
-  background: #ff5273;
-  color: #fff;
-  border-radius: 50%;
-  font-size: 24px;
+.terms-page-section .sec-title h2 {
+  font-weight: 800;
 }
-.gallery-area .gallery-item img {
-  width: 100%;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+
+.terms-page-section .outer-terms-list .terms-title {
+  font-size: 1.25rem;
+  list-style-type: numeric;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #21bcd8;
 }
-.gallery-area .gallery-item:hover .gallery-overlay {
-  opacity: 1;
-  transform: scale(1);
+.terms-page-section .outer-terms-list .terms-title ul li {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #000000;
 }
-.gallery-area .gallery-item:hover img {
-  transform: scale(1.1);
-}
-.gallery-area .row .col-lg-12,
-.gallery-area .row .col-lg-4 {
-  padding-left: 7px;
-  padding-right: 8px;
-}
+
 /*
 ================================================
 18. Error Page
